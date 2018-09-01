@@ -1,14 +1,14 @@
-,Season,Date,MatchNr,Home,Away,Bet_Lul,Bet_Eric,Bet_Maki,Sign
-1,2018,2018-09-01,1,Man City,Newcastle,,,1,1
-2,2018,2018-09-01,2,Brighton,Fulham,,,1,X
-3,2018,2018-09-01,3,Chelsea,Bournemouth,,,1,1
-4,2018,2018-09-01,4,Crystal Palace,Southampton,,,12,X
-5,2018,2018-09-01,5,Everton,Huddersfield,,,1,2
-6,2018,2018-09-01,6,West Ham,Wolves,,,12,X
-7,2018,2018-09-01,7,Birmingham,QPR,,,1X,2
-8,2018,2018-09-01,8,Hull,Derby,,,1X,2
-9,2018,2018-09-01,9,Millwall,Swansea,,,1,2
-10,2018,2018-09-01,10,Sheffield United,Aston Villa,,,X,1
-11,2018,2018-09-01,11,West Brom,Stoke,,,1,1
-12,2018,2018-09-01,12,AIK,Hacken,,,1,1
-13,2018,2018-09-01,13,Orebro,Ostersunds,,,X2,1
+X,Season,Date,MatchNr,Home,Away,Bet_Lul,Bet_Eric,Bet_Maki,Sign
+1,2018,2018-09-01,1,Man City,Newcastle,1,1,1,1
+2,2018,2018-09-01,2,Brighton,Fulham,1X,1X,1,X
+3,2018,2018-09-01,3,Chelsea,Bournemouth,1,1,1,1
+4,2018,2018-09-01,4,Crystal Palace,Southampton,1,12,12,X
+5,2018,2018-09-01,5,Everton,Huddersfield,1X,1,1,2
+6,2018,2018-09-01,6,West Ham,Wolves,2,1X,12,X
+7,2018,2018-09-01,7,Birmingham,QPR,1,1,1X,2
+8,2018,2018-09-01,8,Hull,Derby,X2,1X,1X,2
+9,2018,2018-09-01,9,Millwall,Swansea,X,1,1,2
+10,2018,2018-09-01,10,Sheffield United,Aston Villa,1X,1,X,1
+11,2018,2018-09-01,11,West Brom,Stoke,1,1,1,1
+12,2018,2018-09-01,12,AIK,Hacken,1,1,1,1
+13,2018,2018-09-01,13,Orebro,Ostersunds,1X,X2,X2,1
