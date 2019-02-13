@@ -1,45 +1,60 @@
 "Date","Home","Away","Result","Score_Home","Score_Away","Odds_Home","Odds_Draw","Odds_Away","Division","Season","Coming5","IsPlayed"
+2019-02-18,"Nurnberg","Dortmund",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,1,0
+2019-02-17,"Ein Frankfurt","M'gladbach",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,1,0
+2019-02-17,"Leverkusen","Fortuna Dusseldorf",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,1,0
+2019-02-17,"Blackburn","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
+2019-02-16,"Schalke 04","Freiburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,1,0
+2019-02-16,"Wolfsburg","Mainz",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,1,0
+2019-02-16,"Hoffenheim","Hannover",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,1,0
+2019-02-16,"Stuttgart","RB Leipzig",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,1,0
+2019-02-16,"Hertha","Werder Bremen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,1,0
+2019-02-16,"Rotherham","Sheffield Weds",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
+2019-02-16,"Aston Villa","West Brom",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
+2019-02-16,"Preston","Nott'm Forest",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
+2019-02-16,"Bolton","Norwich",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
+2019-02-16,"Sheffield United","Reading",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
+2019-02-16,"Ipswich","Stoke",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
 2019-02-15,"Augsburg","Bayern Munich",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,1,0
-2019-02-13,"Leeds","Swansea",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
-2019-02-13,"Ipswich","Derby",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
-2019-02-13,"Sheffield United","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
 2019-02-13,"Preston","Norwich",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
-2019-02-13,"Wigan","Stoke",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
 2019-02-13,"Brentford","Aston Villa",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
+2019-02-13,"Leeds","Swansea",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
+2019-02-13,"Sheffield United","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
+2019-02-13,"Wigan","Stoke",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
+2019-02-13,"Ipswich","Derby",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
 2019-02-13,"Reading","Blackburn",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
-2019-02-12,"Hull","Rotherham",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
-2019-02-12,"Millwall","Sheffield Weds",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
-2019-02-12,"Bristol City","QPR",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
-2019-02-12,"Birmingham","Bolton",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
-2019-02-12,"West Brom","Nott'm Forest",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
-2019-02-11,"Wolves","Norrkoping",NA,NA,NA,NA,NA,NA,"Premier League",2019,1,0
-2019-02-10,"Werder Bremen","Augsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,1,0
-2019-02-10,"Fortuna Dusseldorf","Stuttgart",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,1,0
-2019-02-10,"Norwich","Ipswich",NA,NA,NA,NA,NA,NA,"Championship",2019,1,0
-2019-02-10,"Tottenham","Leicester",NA,NA,NA,NA,NA,NA,"Premier League",2019,1,0
-2019-02-10,"Man City","Chelsea",NA,NA,NA,NA,NA,NA,"Premier League",2019,1,0
+2019-02-12,"West Brom","Nott'm Forest","D",2,2,1.66,4.2,5.25,"Championship",2019,0,1
+2019-02-12,"Hull","Rotherham","D",2,2,1.72,3.8,5.5,"Championship",2019,0,1
+2019-02-12,"Birmingham","Bolton","A",0,1,1.57,3.9,7.5,"Championship",2019,0,1
+2019-02-12,"Bristol City","QPR","H",2,1,1.8,3.75,5,"Championship",2019,0,1
+2019-02-12,"Millwall","Sheffield Weds","D",0,0,2.2,3.3,3.75,"Championship",2019,0,1
+2019-02-11,"Wolves","Norrkoping","D",1,1,1.83,3.5,5.25,"Premier League",2019,0,1
+2019-02-10,"Fortuna Dusseldorf","Stuttgart","H",3,0,1.95,3.6,3.8,"Bundesliga",2019,0,1
+2019-02-10,"Werder Bremen","Augsburg","H",4,0,1.61,4.2,4.75,"Bundesliga",2019,0,1
+2019-02-10,"Norwich","Ipswich","H",3,0,1.36,5.25,9.5,"Championship",2019,0,1
+2019-02-10,"Man City","Chelsea","H",6,0,1.53,4.6,6.5,"Premier League",2019,0,1
+2019-02-10,"Tottenham","Leicester","H",3,1,1.66,3.95,5.75,"Premier League",2019,0,1
 2019-02-09,"Bayern Munich","Schalke 04","H",3,1,1.22,6.5,12,"Bundesliga",2019,0,1
+2019-02-09,"Dortmund","Hoffenheim","D",3,3,1.75,4,4.2,"Bundesliga",2019,0,1
+2019-02-09,"RB Leipzig","Ein Frankfurt","D",0,0,1.72,4,4.2,"Bundesliga",2019,0,1
 2019-02-09,"M'gladbach","Hertha","A",0,3,1.57,4.2,5.5,"Bundesliga",2019,0,1
 2019-02-09,"Hannover","Nurnberg","H",2,0,2,3.5,3.75,"Bundesliga",2019,0,1
 2019-02-09,"Freiburg","Wolfsburg","D",3,3,2.75,3.3,2.6,"Bundesliga",2019,0,1
-2019-02-09,"Dortmund","Hoffenheim","D",3,3,1.75,4,4.2,"Bundesliga",2019,0,1
-2019-02-09,"RB Leipzig","Ein Frankfurt","D",0,0,1.72,4,4.2,"Bundesliga",2019,0,1
 2019-02-09,"Stoke","West Brom","A",0,1,2.8,3.2,2.8,"Championship",2019,0,1
 2019-02-09,"Swansea","Millwall","H",1,0,2.1,3.4,3.9,"Championship",2019,0,1
 2019-02-09,"Nott'm Forest","Brentford","H",2,1,2.9,3.4,2.6,"Championship",2019,0,1
 2019-02-09,"QPR","Birmingham","A",3,4,2.45,3.25,3.25,"Championship",2019,0,1
-2019-02-09,"Rotherham","Wigan","D",1,1,3,3.4,2.5,"Championship",2019,0,1
 2019-02-09,"Blackburn","Bristol City","A",0,1,2.8,3.1,2.87,"Championship",2019,0,1
-2019-02-09,"Sheffield Weds","Reading","D",0,0,2,3.4,4.33,"Championship",2019,0,1
+2019-02-09,"Rotherham","Wigan","D",1,1,3,3.4,2.5,"Championship",2019,0,1
 2019-02-09,"Bolton","Preston","A",1,2,4.75,3.6,1.85,"Championship",2019,0,1
+2019-02-09,"Sheffield Weds","Reading","D",0,0,2,3.4,4.33,"Championship",2019,0,1
 2019-02-09,"Derby","Hull","H",2,0,2.2,3.5,3.5,"Championship",2019,0,1
 2019-02-09,"Middlesbrough","Leeds","D",1,1,2.9,3.2,2.7,"Championship",2019,0,1
 2019-02-09,"Brighton","Burnley","A",1,3,2.05,3.4,4.1,"Premier League",2019,0,1
+2019-02-09,"Huddersfield","Arsenal","A",1,2,5.25,3.9,1.72,"Premier League",2019,0,1
 2019-02-09,"Liverpool","Bournemouth","H",3,0,1.18,8,17,"Premier League",2019,0,1
 2019-02-09,"Southampton","Cardiff","A",1,2,1.8,3.6,5.25,"Premier League",2019,0,1
-2019-02-09,"Watford","Everton","H",1,0,2.4,3.5,3.1,"Premier League",2019,0,1
 2019-02-09,"Crystal Palace","West Ham","D",1,1,2,3.6,4,"Premier League",2019,0,1
-2019-02-09,"Huddersfield","Arsenal","A",1,2,5.25,3.9,1.72,"Premier League",2019,0,1
+2019-02-09,"Watford","Everton","H",1,0,2.4,3.5,3.1,"Premier League",2019,0,1
 2019-02-09,"Fulham","Man United","A",0,3,5.25,4,1.7,"Premier League",2019,0,1
 2019-02-08,"Mainz","Leverkusen","A",1,5,4.2,4,1.75,"Bundesliga",2019,0,1
 2019-02-08,"Aston Villa","Sheffield United","D",3,3,2.9,3.5,2.55,"Championship",2019,0,1
@@ -50,14 +65,13 @@
 2019-02-03,"Man City","Arsenal","H",3,1,1.25,7.5,11,"Premier League",2019,0,1
 2019-02-03,"Leicester","Man United","A",0,1,3.75,3.6,2.1,"Premier League",2019,0,1
 2019-02-02,"Schalke 04","M'gladbach","A",0,2,2.3,3.5,3.1,"Bundesliga",2019,0,1
+2019-02-02,"Ein Frankfurt","Dortmund","D",1,1,3.1,3.8,2.1,"Bundesliga",2019,0,1
 2019-02-02,"Hertha","Wolfsburg","A",0,1,2.3,3.4,3.1,"Bundesliga",2019,0,1
 2019-02-02,"Hoffenheim","Fortuna Dusseldorf","D",1,1,1.4,5.25,7,"Bundesliga",2019,0,1
 2019-02-02,"Nurnberg","Werder Bremen","D",1,1,4,4,1.83,"Bundesliga",2019,0,1
 2019-02-02,"Leverkusen","Bayern Munich","H",3,1,5.25,4.5,1.57,"Bundesliga",2019,0,1
-2019-02-02,"Ein Frankfurt","Dortmund","D",1,1,3.1,3.8,2.1,"Bundesliga",2019,0,1
 2019-02-02,"Leeds","Norwich","A",1,3,1.9,3.9,4.1,"Championship",2019,0,1
 2019-02-02,"Millwall","Rotherham","D",0,0,1.72,3.7,5.75,"Championship",2019,0,1
-2019-02-02,"Hull","Stoke","H",2,0,2.5,3.4,3,"Championship",2019,0,1
 2019-02-02,"West Brom","Middlesbrough","A",2,3,2.2,3.25,3.8,"Championship",2019,0,1
 2019-02-02,"Ipswich","Sheffield Weds","A",0,1,3.2,3.2,2.5,"Championship",2019,0,1
 2019-02-02,"Wigan","QPR","H",2,1,2.4,3.3,3.3,"Championship",2019,0,1
@@ -66,19 +80,20 @@
 2019-02-02,"Reading","Aston Villa","D",0,0,3.3,3.6,2.25,"Championship",2019,0,1
 2019-02-02,"Bristol City","Swansea","H",2,0,2.3,3.4,3.4,"Championship",2019,0,1
 2019-02-02,"Sheffield United","Bolton","H",2,0,1.28,5.5,15,"Championship",2019,0,1
+2019-02-02,"Hull","Stoke","H",2,0,2.5,3.4,3,"Championship",2019,0,1
 2019-02-02,"Cardiff","Bournemouth","H",2,0,3.3,3.6,2.25,"Premier League",2019,0,1
+2019-02-02,"Chelsea","Huddersfield","H",5,0,1.25,6.5,14,"Premier League",2019,0,1
 2019-02-02,"Crystal Palace","Fulham","H",2,0,2.1,3.5,3.8,"Premier League",2019,0,1
 2019-02-02,"Everton","Wolves","A",1,3,2.62,3.4,2.87,"Premier League",2019,0,1
 2019-02-02,"Brighton","Watford","D",0,0,2.6,3.3,3,"Premier League",2019,0,1
 2019-02-02,"Burnley","Southampton","D",1,1,2.62,3.4,2.87,"Premier League",2019,0,1
-2019-02-02,"Chelsea","Huddersfield","H",5,0,1.25,6.5,14,"Premier League",2019,0,1
 2019-02-02,"Tottenham","Norrkoping","H",1,0,1.45,4.4,9,"Premier League",2019,0,1
 2019-02-01,"Hannover","RB Leipzig","A",0,3,4.75,4,1.65,"Bundesliga",2019,0,1
 2019-02-01,"Preston","Derby","D",0,0,2.3,3.5,3.25,"Championship",2019,0,1
 2019-01-30,"Liverpool","Leicester","D",1,1,1.25,7,12,"Premier League",2019,0,1
 2019-01-30,"Tottenham","Watford","H",2,1,1.61,4.1,6,"Premier League",2019,0,1
-2019-01-30,"Bournemouth","Chelsea","H",4,0,5.75,4.4,1.6,"Premier League",2019,0,1
 2019-01-30,"Southampton","Crystal Palace","D",1,1,2.5,3.4,3,"Premier League",2019,0,1
+2019-01-30,"Bournemouth","Chelsea","H",4,0,5.75,4.4,1.6,"Premier League",2019,0,1
 2019-01-29,"Bolton","Reading","D",1,1,3.1,3.1,2.62,"Championship",2019,0,1
 2019-01-29,"Swansea","Birmingham","D",3,3,2.1,3.4,3.9,"Championship",2019,0,1
 2019-01-29,"Man United","Burnley","D",2,2,1.28,6,12,"Premier League",2019,0,1
@@ -90,17 +105,17 @@
 2019-01-27,"Fortuna Dusseldorf","RB Leipzig","A",0,4,3.6,3.8,1.95,"Bundesliga",2019,0,1
 2019-01-27,"Bayern Munich","Stuttgart","H",4,1,1.08,13,21,"Bundesliga",2019,0,1
 2019-01-26,"Werder Bremen","Ein Frankfurt","D",2,2,2.87,3.6,2.37,"Bundesliga",2019,0,1
-2019-01-26,"M'gladbach","Augsburg","H",2,0,1.72,3.8,4.75,"Bundesliga",2019,0,1
-2019-01-26,"Dortmund","Hannover","H",5,1,1.18,7.5,15,"Bundesliga",2019,0,1
-2019-01-26,"Freiburg","Hoffenheim","A",2,4,3.6,3.8,1.9,"Bundesliga",2019,0,1
 2019-01-26,"Mainz","Nurnberg","H",2,1,1.72,3.5,5,"Bundesliga",2019,0,1
 2019-01-26,"Wolfsburg","Leverkusen","A",0,3,2.87,3.6,2.35,"Bundesliga",2019,0,1
-2019-01-26,"Rotherham","Leeds","A",1,2,6.5,4.33,1.55,"Championship",2019,0,1
+2019-01-26,"Dortmund","Hannover","H",5,1,1.18,7.5,15,"Bundesliga",2019,0,1
+2019-01-26,"M'gladbach","Augsburg","H",2,0,1.72,3.8,4.75,"Bundesliga",2019,0,1
+2019-01-26,"Freiburg","Hoffenheim","A",2,4,3.6,3.8,1.9,"Bundesliga",2019,0,1
 2019-01-26,"Stoke","Preston","A",0,2,2.05,3.3,4.2,"Championship",2019,0,1
 2019-01-26,"Aston Villa","Ipswich","H",2,1,1.5,4.4,7.5,"Championship",2019,0,1
 2019-01-26,"Blackburn","Hull","H",3,0,2.45,3.5,3,"Championship",2019,0,1
 2019-01-26,"Norwich","Sheffield United","D",2,2,2.45,3.5,3,"Championship",2019,0,1
 2019-01-26,"Nott'm Forest","Wigan","H",3,1,2.1,3.4,4,"Championship",2019,0,1
+2019-01-26,"Rotherham","Leeds","A",1,2,6.5,4.33,1.55,"Championship",2019,0,1
 2019-01-25,"Hertha","Schalke 04","D",2,2,2.4,3.25,3,"Bundesliga",2019,0,1
 2019-01-21,"Bolton","West Brom","A",0,2,5,3.7,1.8,"Championship",2019,0,1
 2019-01-20,"Schalke 04","Wolfsburg","H",2,1,2.2,3.4,3.25,"Bundesliga",2019,0,1
@@ -114,22 +129,22 @@
 2019-01-19,"Augsburg","Fortuna Dusseldorf","A",1,2,2.05,3.5,3.5,"Bundesliga",2019,0,1
 2019-01-19,"Hannover","Werder Bremen","A",0,1,3.5,3.75,2,"Bundesliga",2019,0,1
 2019-01-19,"Swansea","Sheffield United","H",1,0,3,3.3,2.55,"Championship",2019,0,1
-2019-01-19,"Stoke","Leeds","H",2,1,3,3.4,2.5,"Championship",2019,0,1
-2019-01-19,"Middlesbrough","Millwall","D",1,1,1.95,3.25,4.8,"Championship",2019,0,1
-2019-01-19,"Aston Villa","Hull","D",2,2,2.05,3.6,3.8,"Championship",2019,0,1
-2019-01-19,"Blackburn","Ipswich","H",2,0,1.75,3.6,5.75,"Championship",2019,0,1
 2019-01-19,"Nott'm Forest","Bristol City","A",0,1,2.45,3.3,3.2,"Championship",2019,0,1
+2019-01-19,"Aston Villa","Hull","D",2,2,2.05,3.6,3.8,"Championship",2019,0,1
 2019-01-19,"QPR","Preston","A",1,4,2.15,3.5,3.6,"Championship",2019,0,1
-2019-01-19,"Derby","Reading","H",2,1,1.72,3.8,5.5,"Championship",2019,0,1
+2019-01-19,"Blackburn","Ipswich","H",2,0,1.75,3.6,5.75,"Championship",2019,0,1
 2019-01-19,"Rotherham","Brentford","A",2,4,4,3.6,2,"Championship",2019,0,1
 2019-01-19,"Sheffield Weds","Wigan","H",1,0,2.55,3.3,3,"Championship",2019,0,1
+2019-01-19,"Derby","Reading","H",2,1,1.72,3.8,5.5,"Championship",2019,0,1
+2019-01-19,"Stoke","Leeds","H",2,1,3,3.4,2.5,"Championship",2019,0,1
+2019-01-19,"Middlesbrough","Millwall","D",1,1,1.95,3.25,4.8,"Championship",2019,0,1
 2019-01-19,"Arsenal","Chelsea","H",2,0,3.3,3.5,2.3,"Premier League",2019,0,1
+2019-01-19,"Liverpool","Crystal Palace","H",4,3,1.22,7,15,"Premier League",2019,0,1
 2019-01-19,"Man United","Brighton","H",2,1,1.36,5.5,9.5,"Premier League",2019,0,1
 2019-01-19,"Norrkoping","Cardiff","H",3,0,2.05,3.25,4.33,"Premier League",2019,0,1
 2019-01-19,"Southampton","Everton","H",2,1,2.87,3.4,2.6,"Premier League",2019,0,1
 2019-01-19,"Bournemouth","West Ham","H",2,0,2.15,3.75,3.4,"Premier League",2019,0,1
 2019-01-19,"Watford","Burnley","D",0,0,1.61,4.2,6,"Premier League",2019,0,1
-2019-01-19,"Liverpool","Crystal Palace","H",4,3,1.22,7,15,"Premier League",2019,0,1
 2019-01-19,"Wolves","Leicester","H",4,3,2.35,3.2,3.5,"Premier League",2019,0,1
 2019-01-18,"Hoffenheim","Bayern Munich","A",1,3,6.5,5,1.4,"Bundesliga",2019,0,1
 2019-01-18,"Norwich","Birmingham","H",3,1,1.9,3.6,4.4,"Championship",2019,0,1
@@ -137,6 +152,8 @@
 2019-01-13,"Tottenham","Man United","A",0,1,2.1,3.6,3.7,"Premier League",2019,0,1
 2019-01-13,"Everton","Bournemouth","H",2,0,1.75,4,4.8,"Premier League",2019,0,1
 2019-01-12,"Millwall","Blackburn","A",0,2,2.1,3.5,3.8,"Championship",2019,0,1
+2019-01-12,"West Brom","Norwich","D",1,1,2.2,3.7,3.3,"Championship",2019,0,1
+2019-01-12,"Ipswich","Rotherham","H",1,0,2.4,3.3,3.25,"Championship",2019,0,1
 2019-01-12,"Wigan","Aston Villa","H",3,0,3,3.4,2.5,"Championship",2019,0,1
 2019-01-12,"Birmingham","Middlesbrough","A",1,2,2.7,3,3.1,"Championship",2019,0,1
 2019-01-12,"Preston","Swansea","D",1,1,2.6,3.4,2.87,"Championship",2019,0,1
@@ -145,23 +162,24 @@
 2019-01-12,"Bristol City","Bolton","H",2,1,1.61,3.9,6.5,"Championship",2019,0,1
 2019-01-12,"Sheffield United","QPR","H",1,0,1.66,3.9,6,"Championship",2019,0,1
 2019-01-12,"Hull","Sheffield Weds","H",3,0,2.15,3.4,3.7,"Championship",2019,0,1
-2019-01-12,"West Brom","Norwich","D",1,1,2.2,3.7,3.3,"Championship",2019,0,1
-2019-01-12,"Ipswich","Rotherham","H",1,0,2.4,3.3,3.25,"Championship",2019,0,1
 2019-01-12,"Chelsea","Norrkoping","H",2,1,1.2,7,19,"Premier League",2019,0,1
+2019-01-12,"Burnley","Fulham","H",2,1,2.5,3.3,3.1,"Premier League",2019,0,1
 2019-01-12,"Cardiff","Huddersfield","D",0,0,2.15,3.25,3.9,"Premier League",2019,0,1
 2019-01-12,"Crystal Palace","Watford","A",1,2,2.37,3.4,3.25,"Premier League",2019,0,1
 2019-01-12,"Leicester","Southampton","A",1,2,1.9,3.5,4.6,"Premier League",2019,0,1
 2019-01-12,"Brighton","Liverpool","A",0,1,9.5,5.25,1.36,"Premier League",2019,0,1
-2019-01-12,"Burnley","Fulham","H",2,1,2.5,3.3,3.1,"Premier League",2019,0,1
 2019-01-12,"West Ham","Arsenal","H",1,0,3.5,4,2.05,"Premier League",2019,0,1
 2019-01-11,"Leeds","Derby","H",2,0,1.95,3.7,4.2,"Championship",2019,0,1
 2019-01-03,"Man City","Liverpool","H",2,1,1.95,3.9,3.9,"Premier League",2019,0,1
-2019-01-02,"Norrkoping","Man United","A",0,2,6.25,4.33,1.57,"Premier League",2019,0,1
 2019-01-02,"Bournemouth","Watford","D",3,3,2.65,3.7,2.65,"Premier League",2019,0,1
-2019-01-02,"Chelsea","Southampton","D",0,0,1.3,6,11,"Premier League",2019,0,1
-2019-01-02,"West Ham","Brighton","D",2,2,2,3.6,4,"Premier League",2019,0,1
-2019-01-02,"Wolves","Crystal Palace","A",0,2,2.25,3.2,3.7,"Premier League",2019,0,1
+2019-01-02,"Norrkoping","Man United","A",0,2,6.25,4.33,1.57,"Premier League",2019,0,1
 2019-01-02,"Huddersfield","Burnley","A",1,2,2.35,3.2,3.5,"Premier League",2019,0,1
+2019-01-02,"West Ham","Brighton","D",2,2,2,3.6,4,"Premier League",2019,0,1
+2019-01-02,"Chelsea","Southampton","D",0,0,1.3,6,11,"Premier League",2019,0,1
+2019-01-02,"Wolves","Crystal Palace","A",0,2,2.25,3.2,3.7,"Premier League",2019,0,1
+2019-01-01,"Sheffield Weds","Birmingham","D",1,1,3,3.2,2.62,"Championship",2019,0,1
+2019-01-01,"Derby","Middlesbrough","D",1,1,2.3,3.3,3.5,"Championship",2019,0,1
+2019-01-01,"Stoke","Bristol City","A",0,2,2.3,3.1,3.75,"Championship",2019,0,1
 2019-01-01,"Hull","Bolton","H",6,0,1.83,3.4,5.5,"Championship",2019,0,1
 2019-01-01,"Wigan","Sheffield United","A",0,3,3.75,3.4,2.14,"Championship",2019,0,1
 2019-01-01,"Ipswich","Millwall","A",2,3,3.5,3.2,2.35,"Championship",2019,0,1
@@ -171,9 +189,6 @@
 2019-01-01,"Blackburn","West Brom","H",2,1,3.1,3.6,2.35,"Championship",2019,0,1
 2019-01-01,"Rotherham","Preston","H",2,1,3,3.4,2.5,"Championship",2019,0,1
 2019-01-01,"Brentford","Norwich","D",1,1,2.7,3.4,2.75,"Championship",2019,0,1
-2019-01-01,"Sheffield Weds","Birmingham","D",1,1,3,3.2,2.62,"Championship",2019,0,1
-2019-01-01,"Derby","Middlesbrough","D",1,1,2.3,3.3,3.5,"Championship",2019,0,1
-2019-01-01,"Stoke","Bristol City","A",0,2,2.3,3.1,3.75,"Championship",2019,0,1
 2019-01-01,"Cardiff","Tottenham","A",0,3,9,5,1.4,"Premier League",2019,0,1
 2019-01-01,"Arsenal","Fulham","H",4,1,1.36,5.5,9,"Premier League",2019,0,1
 2019-01-01,"Everton","Leicester","A",0,1,2,3.6,4,"Premier League",2019,0,1
@@ -181,6 +196,8 @@
 2018-12-30,"Southampton","Man City","A",1,3,13,7.5,1.22,"Premier League",2019,0,1
 2018-12-30,"Burnley","West Ham","H",2,0,3.9,3.5,2.04,"Premier League",2019,0,1
 2018-12-30,"Crystal Palace","Chelsea","A",0,1,5.25,3.8,1.75,"Premier League",2019,0,1
+2018-12-29,"Bristol City","Rotherham","H",1,0,1.61,4,6.5,"Championship",2019,0,1
+2018-12-29,"Sheffield United","Blackburn","H",3,0,1.61,4.2,6,"Championship",2019,0,1
 2018-12-29,"Leeds","Hull","A",0,2,1.5,4.5,7.5,"Championship",2019,0,1
 2018-12-29,"Swansea","Wigan","D",2,2,1.9,3.6,4.5,"Championship",2019,0,1
 2018-12-29,"Middlesbrough","Ipswich","H",2,0,1.53,3.9,8.5,"Championship",2019,0,1
@@ -191,49 +208,45 @@
 2018-12-29,"Preston","Aston Villa","D",1,1,3,3.4,2.5,"Championship",2019,0,1
 2018-12-29,"Bolton","Stoke","D",0,0,4.75,3.4,1.9,"Championship",2019,0,1
 2018-12-29,"QPR","Reading","D",0,0,1.72,3.8,5.5,"Championship",2019,0,1
-2018-12-29,"Bristol City","Rotherham","H",1,0,1.61,4,6.5,"Championship",2019,0,1
-2018-12-29,"Sheffield United","Blackburn","H",3,0,1.61,4.2,6,"Championship",2019,0,1
 2018-12-29,"Liverpool","Arsenal","H",5,1,1.4,5.5,7.5,"Premier League",2019,0,1
+2018-12-29,"Leicester","Cardiff","A",0,1,1.53,4,8,"Premier League",2019,0,1
 2018-12-29,"Brighton","Everton","H",1,0,3.4,3.25,2.35,"Premier League",2019,0,1
 2018-12-29,"Tottenham","Wolves","A",1,3,1.5,4.5,7.5,"Premier League",2019,0,1
 2018-12-29,"Watford","Norrkoping","D",1,1,1.7,4,5.5,"Premier League",2019,0,1
 2018-12-29,"Fulham","Huddersfield","H",1,0,2.04,3.3,4.33,"Premier League",2019,0,1
-2018-12-29,"Leicester","Cardiff","A",0,1,1.53,4,8,"Premier League",2019,0,1
 2018-12-27,"Southampton","West Ham","A",1,2,2.35,3.4,3.25,"Premier League",2019,0,1
-2018-12-26,"QPR","Ipswich","H",3,0,1.72,3.7,5.75,"Championship",2019,0,1
-2018-12-26,"Bristol City","Brentford","D",1,1,2.4,3.5,3.1,"Championship",2019,0,1
 2018-12-26,"Sheffield United","Derby","H",3,1,2.1,3.6,3.75,"Championship",2019,0,1
 2018-12-26,"Leeds","Blackburn","H",3,2,1.6,4,6.5,"Championship",2019,0,1
-2018-12-26,"West Brom","Wigan","H",2,0,1.6,4.2,6,"Championship",2019,0,1
 2018-12-26,"Swansea","Aston Villa","A",0,1,2.5,3.5,2.95,"Championship",2019,0,1
 2018-12-26,"Middlesbrough","Sheffield Weds","A",0,1,1.7,3.6,6.5,"Championship",2019,0,1
 2018-12-26,"Millwall","Reading","H",1,0,1.8,3.9,4.75,"Championship",2019,0,1
+2018-12-26,"West Brom","Wigan","H",2,0,1.6,4.2,6,"Championship",2019,0,1
 2018-12-26,"Norwich","Nott'm Forest","D",3,3,1.9,3.7,4.33,"Championship",2019,0,1
 2018-12-26,"Birmingham","Stoke","H",2,0,2.87,3.1,2.8,"Championship",2019,0,1
 2018-12-26,"Preston","Hull","A",1,2,2.25,3.3,3.6,"Championship",2019,0,1
 2018-12-26,"Bolton","Rotherham","H",2,1,2.54,3.2,3.1,"Championship",2019,0,1
+2018-12-26,"QPR","Ipswich","H",3,0,1.72,3.7,5.75,"Championship",2019,0,1
+2018-12-26,"Bristol City","Brentford","D",1,1,2.4,3.5,3.1,"Championship",2019,0,1
 2018-12-26,"Watford","Chelsea","A",1,2,5.6,4,1.66,"Premier League",2019,0,1
 2018-12-26,"Brighton","Arsenal","D",1,1,5.5,3.9,1.7,"Premier League",2019,0,1
-2018-12-26,"Leicester","Man City","H",2,1,10.5,5.5,1.33,"Premier League",2019,0,1
-2018-12-26,"Liverpool","Norrkoping","H",4,0,1.18,8,17,"Premier League",2019,0,1
-2018-12-26,"Man United","Huddersfield","H",3,1,1.3,5.75,12,"Premier League",2019,0,1
 2018-12-26,"Burnley","Everton","A",1,5,4.75,3.6,1.85,"Premier League",2019,0,1
 2018-12-26,"Tottenham","Bournemouth","H",5,0,1.35,5.5,9.5,"Premier League",2019,0,1
 2018-12-26,"Crystal Palace","Cardiff","D",0,0,1.64,3.8,6.5,"Premier League",2019,0,1
+2018-12-26,"Leicester","Man City","H",2,1,10.5,5.5,1.33,"Premier League",2019,0,1
+2018-12-26,"Liverpool","Norrkoping","H",4,0,1.18,8,17,"Premier League",2019,0,1
+2018-12-26,"Man United","Huddersfield","H",3,1,1.3,5.75,12,"Premier League",2019,0,1
 2018-12-26,"Fulham","Wolves","D",1,1,3,3.25,2.62,"Premier League",2019,0,1
 2018-12-23,"Hoffenheim","Mainz","D",1,1,1.61,4.2,5.25,"Bundesliga",2019,0,1
 2018-12-23,"Augsburg","Wolfsburg","A",2,3,2.6,3.3,2.75,"Bundesliga",2019,0,1
 2018-12-23,"Aston Villa","Leeds","A",2,3,2.62,3.5,2.8,"Championship",2019,0,1
 2018-12-23,"Everton","Tottenham","A",2,6,3.4,3.6,2.2,"Premier League",2019,0,1
 2018-12-22,"Ein Frankfurt","Bayern Munich","A",0,3,6,4.75,1.44,"Bundesliga",2019,0,1
-2018-12-22,"Stuttgart","Schalke 04","A",1,3,3.2,3.3,2.3,"Bundesliga",2019,0,1
 2018-12-22,"Hannover","Fortuna Dusseldorf","A",0,1,2.37,3.4,2.9,"Bundesliga",2019,0,1
 2018-12-22,"Nurnberg","Freiburg","A",0,1,3,3.3,2.4,"Bundesliga",2019,0,1
 2018-12-22,"Leverkusen","Hertha","H",3,1,1.64,4.1,5,"Bundesliga",2019,0,1
 2018-12-22,"RB Leipzig","Werder Bremen","H",3,2,1.44,4.75,7,"Bundesliga",2019,0,1
+2018-12-22,"Stuttgart","Schalke 04","A",1,3,3.2,3.3,2.3,"Bundesliga",2019,0,1
 2018-12-22,"Hull","Swansea","H",3,2,2.75,3.4,2.75,"Championship",2019,0,1
-2018-12-22,"Reading","Middlesbrough","A",0,1,4.6,3.5,1.9,"Championship",2019,0,1
-2018-12-22,"Blackburn","Norwich","A",0,1,2.9,3.4,2.6,"Championship",2019,0,1
 2018-12-22,"Rotherham","West Brom","A",0,4,4.33,3.8,1.75,"Championship",2019,0,1
 2018-12-22,"Brentford","Bolton","H",1,0,1.5,4.5,7.5,"Championship",2019,0,1
 2018-12-22,"Sheffield Weds","Preston","H",1,0,3.2,3.4,2.4,"Championship",2019,0,1
@@ -242,20 +255,22 @@
 2018-12-22,"Wigan","Birmingham","A",0,3,2.6,3.25,3,"Championship",2019,0,1
 2018-12-22,"Ipswich","Sheffield United","D",1,1,5.25,3.5,1.83,"Championship",2019,0,1
 2018-12-22,"Nott'm Forest","QPR","A",0,1,1.95,3.6,4.2,"Championship",2019,0,1
+2018-12-22,"Reading","Middlesbrough","A",0,1,4.6,3.5,1.9,"Championship",2019,0,1
+2018-12-22,"Blackburn","Norwich","A",0,1,2.9,3.4,2.6,"Championship",2019,0,1
 2018-12-22,"Cardiff","Man United","A",1,5,6.5,4.33,1.55,"Premier League",2019,0,1
+2018-12-22,"Huddersfield","Southampton","A",1,3,2.9,3.1,2.8,"Premier League",2019,0,1
+2018-12-22,"Man City","Crystal Palace","A",2,3,1.14,10,21,"Premier League",2019,0,1
 2018-12-22,"Norrkoping","Fulham","D",0,0,2,3.5,4.2,"Premier League",2019,0,1
 2018-12-22,"Bournemouth","Brighton","H",2,0,1.95,3.75,4,"Premier League",2019,0,1
 2018-12-22,"West Ham","Watford","A",0,2,2.35,3.6,3.1,"Premier League",2019,0,1
 2018-12-22,"Chelsea","Leicester","A",0,1,1.36,5.25,10,"Premier League",2019,0,1
-2018-12-22,"Huddersfield","Southampton","A",1,3,2.9,3.1,2.8,"Premier League",2019,0,1
-2018-12-22,"Man City","Crystal Palace","A",2,3,1.14,10,21,"Premier League",2019,0,1
 2018-12-22,"Arsenal","Burnley","H",3,1,1.22,6.75,17,"Premier League",2019,0,1
 2018-12-21,"Dortmund","M'gladbach","H",2,1,1.5,4.5,6,"Bundesliga",2019,0,1
 2018-12-21,"Wolves","Liverpool","A",0,2,6.75,4.1,1.57,"Premier League",2019,0,1
-2018-12-19,"Bayern Munich","RB Leipzig","H",1,0,1.28,6,9.5,"Bundesliga",2019,0,1
 2018-12-19,"Werder Bremen","Hoffenheim","D",1,1,3.1,4.2,2.04,"Bundesliga",2019,0,1
 2018-12-19,"Freiburg","Hannover","D",1,1,1.75,3.8,4.6,"Bundesliga",2019,0,1
 2018-12-19,"Mainz","Ein Frankfurt","D",2,2,3.25,3.5,2.2,"Bundesliga",2019,0,1
+2018-12-19,"Bayern Munich","RB Leipzig","H",1,0,1.28,6,9.5,"Bundesliga",2019,0,1
 2018-12-19,"Schalke 04","Leverkusen","A",1,2,2.45,3.4,2.87,"Bundesliga",2019,0,1
 2018-12-18,"Wolfsburg","Stuttgart","H",2,0,1.6,4,5.5,"Bundesliga",2019,0,1
 2018-12-18,"Fortuna Dusseldorf","Dortmund","H",2,1,6.5,4.5,1.44,"Bundesliga",2019,0,1
@@ -265,8 +280,8 @@
 2018-12-16,"Ein Frankfurt","Leverkusen","H",2,1,2.4,3.6,2.8,"Bundesliga",2019,0,1
 2018-12-16,"RB Leipzig","Mainz","H",4,1,1.5,4.5,6.5,"Bundesliga",2019,0,1
 2018-12-16,"Liverpool","Man United","H",3,1,1.55,4.33,6.75,"Premier League",2019,0,1
-2018-12-16,"Brighton","Chelsea","A",1,2,8,4.75,1.44,"Premier League",2019,0,1
 2018-12-16,"Southampton","Arsenal","H",3,2,4.4,4.1,1.8,"Premier League",2019,0,1
+2018-12-16,"Brighton","Chelsea","A",1,2,8,4.75,1.44,"Premier League",2019,0,1
 2018-12-15,"Dortmund","Werder Bremen","H",2,1,1.33,5.5,9,"Bundesliga",2019,0,1
 2018-12-15,"Stuttgart","Hertha","H",2,1,2.7,3.4,2.62,"Bundesliga",2019,0,1
 2018-12-15,"Augsburg","Schalke 04","D",1,1,2.54,3.3,2.75,"Bundesliga",2019,0,1
@@ -274,21 +289,21 @@
 2018-12-15,"Hoffenheim","M'gladbach","D",0,0,1.83,4.33,3.6,"Bundesliga",2019,0,1
 2018-12-15,"Fortuna Dusseldorf","Freiburg","H",2,0,2.62,3.4,2.7,"Bundesliga",2019,0,1
 2018-12-15,"Bristol City","Norwich","D",2,2,2.7,3.3,2.8,"Championship",2019,0,1
-2018-12-15,"Ipswich","Wigan","H",1,0,3.1,3.25,2.54,"Championship",2019,0,1
-2018-12-15,"Aston Villa","Stoke","D",2,2,2.1,3.6,3.75,"Championship",2019,0,1
-2018-12-15,"Preston","Millwall","H",3,2,2.2,3.4,3.6,"Championship",2019,0,1
 2018-12-15,"Blackburn","Birmingham","D",2,2,2.45,3.3,3.2,"Championship",2019,0,1
 2018-12-15,"QPR","Middlesbrough","H",2,1,3,3.3,2.54,"Championship",2019,0,1
 2018-12-15,"Bolton","Leeds","A",0,1,6.25,3.9,1.64,"Championship",2019,0,1
 2018-12-15,"Rotherham","Reading","D",1,1,2.04,3.7,3.75,"Championship",2019,0,1
 2018-12-15,"Swansea","Sheffield Weds","H",2,1,1.64,4.2,5.5,"Championship",2019,0,1
 2018-12-15,"Hull","Brentford","H",2,0,2.8,3.6,2.54,"Championship",2019,0,1
+2018-12-15,"Ipswich","Wigan","H",1,0,3.1,3.25,2.54,"Championship",2019,0,1
+2018-12-15,"Aston Villa","Stoke","D",2,2,2.1,3.6,3.75,"Championship",2019,0,1
+2018-12-15,"Preston","Millwall","H",3,2,2.2,3.4,3.6,"Championship",2019,0,1
 2018-12-15,"Fulham","West Ham","A",0,2,3,3.5,2.45,"Premier League",2019,0,1
 2018-12-15,"Crystal Palace","Leicester","H",1,0,2.7,3.25,2.87,"Premier League",2019,0,1
-2018-12-15,"Tottenham","Burnley","H",1,0,1.18,8,19,"Premier League",2019,0,1
 2018-12-15,"Watford","Cardiff","H",3,2,1.7,3.8,5.75,"Premier League",2019,0,1
-2018-12-15,"Huddersfield","Norrkoping","A",0,1,2.62,3,3.2,"Premier League",2019,0,1
 2018-12-15,"Wolves","Bournemouth","H",2,0,2.1,3.4,3.9,"Premier League",2019,0,1
+2018-12-15,"Huddersfield","Norrkoping","A",0,1,2.62,3,3.2,"Premier League",2019,0,1
+2018-12-15,"Tottenham","Burnley","H",1,0,1.18,8,19,"Premier League",2019,0,1
 2018-12-15,"Man City","Everton","H",3,1,1.22,7.5,13,"Premier League",2019,0,1
 2018-12-14,"Nurnberg","Wolfsburg","A",0,2,3.6,3.5,2.04,"Bundesliga",2019,0,1
 2018-12-14,"Sheffield United","West Brom","A",1,2,2.2,3.6,3.4,"Championship",2019,0,1
@@ -303,36 +318,36 @@
 2018-12-08,"Schalke 04","Dortmund","A",1,2,3.4,3.5,2.14,"Bundesliga",2019,0,1
 2018-12-08,"Leverkusen","Augsburg","H",1,0,1.7,4,4.75,"Bundesliga",2019,0,1
 2018-12-08,"Reading","Sheffield United","A",0,2,5,4,1.72,"Championship",2019,0,1
-2018-12-08,"Middlesbrough","Blackburn","D",1,1,1.75,3.6,5.75,"Championship",2019,0,1
-2018-12-08,"Nott'm Forest","Preston","A",0,1,2.04,3.5,3.9,"Championship",2019,0,1
-2018-12-08,"Millwall","Hull","D",2,2,2.1,3.6,3.7,"Championship",2019,0,1
-2018-12-08,"Norwich","Bolton","H",3,2,1.4,4.75,10,"Championship",2019,0,1
-2018-12-08,"Sheffield Weds","Rotherham","D",2,2,2.14,3.5,3.6,"Championship",2019,0,1
 2018-12-08,"Birmingham","Bristol City","A",0,1,2.3,3.3,3.5,"Championship",2019,0,1
-2018-12-08,"Stoke","Ipswich","H",2,0,1.44,4.33,9,"Championship",2019,0,1
+2018-12-08,"Sheffield Weds","Rotherham","D",2,2,2.14,3.5,3.6,"Championship",2019,0,1
 2018-12-08,"Brentford","Swansea","A",2,3,2.1,3.6,3.7,"Championship",2019,0,1
 2018-12-08,"Leeds","QPR","H",2,1,1.75,3.8,5.25,"Championship",2019,0,1
+2018-12-08,"Stoke","Ipswich","H",2,0,1.44,4.33,9,"Championship",2019,0,1
+2018-12-08,"Middlesbrough","Blackburn","D",1,1,1.75,3.6,5.75,"Championship",2019,0,1
+2018-12-08,"Millwall","Hull","D",2,2,2.1,3.6,3.7,"Championship",2019,0,1
 2018-12-08,"Wigan","Derby","A",0,1,3.1,3.4,2.45,"Championship",2019,0,1
+2018-12-08,"Norwich","Bolton","H",3,2,1.4,4.75,10,"Championship",2019,0,1
+2018-12-08,"Nott'm Forest","Preston","A",0,1,2.04,3.5,3.9,"Championship",2019,0,1
 2018-12-08,"Leicester","Tottenham","A",0,2,4.2,3.7,1.95,"Premier League",2019,0,1
 2018-12-08,"Chelsea","Man City","H",2,0,3.6,3.5,2.14,"Premier League",2019,0,1
-2018-12-08,"West Ham","Crystal Palace","H",3,2,2.25,3.4,3.5,"Premier League",2019,0,1
-2018-12-08,"Cardiff","Southampton","H",1,0,3.3,3.3,2.4,"Premier League",2019,0,1
 2018-12-08,"Arsenal","Huddersfield","H",1,0,1.28,6,13,"Premier League",2019,0,1
 2018-12-08,"Man United","Fulham","H",4,1,1.4,5,9,"Premier League",2019,0,1
 2018-12-08,"Burnley","Brighton","H",1,0,2.87,3.1,2.8,"Premier League",2019,0,1
+2018-12-08,"West Ham","Crystal Palace","H",3,2,2.25,3.4,3.5,"Premier League",2019,0,1
+2018-12-08,"Cardiff","Southampton","H",1,0,3.3,3.3,2.4,"Premier League",2019,0,1
 2018-12-08,"Bournemouth","Liverpool","A",0,4,7,4.6,1.5,"Premier League",2019,0,1
 2018-12-07,"Werder Bremen","Fortuna Dusseldorf","H",3,1,1.8,3.9,4.33,"Bundesliga",2019,0,1
 2018-12-07,"West Brom","Aston Villa","D",2,2,2.37,3.7,3,"Championship",2019,0,1
-2018-12-05,"Man United","Arsenal","D",2,2,2.35,3.6,3.1,"Premier League",2019,0,1
 2018-12-05,"Tottenham","Southampton","H",3,1,1.4,5,9,"Premier League",2019,0,1
-2018-12-05,"Wolves","Chelsea","H",2,1,5.5,3.75,1.72,"Premier League",2019,0,1
+2018-12-05,"Man United","Arsenal","D",2,2,2.35,3.6,3.1,"Premier League",2019,0,1
 2018-12-05,"Everton","Norrkoping","D",1,1,1.53,4.2,7.5,"Premier League",2019,0,1
 2018-12-05,"Burnley","Liverpool","A",1,3,14,5.75,1.28,"Premier League",2019,0,1
 2018-12-05,"Fulham","Leicester","D",1,1,2.87,3.4,2.62,"Premier League",2019,0,1
+2018-12-05,"Wolves","Chelsea","H",2,1,5.5,3.75,1.72,"Premier League",2019,0,1
 2018-12-04,"Watford","Man City","A",1,2,9,5.5,1.36,"Premier League",2019,0,1
+2018-12-04,"West Ham","Cardiff","H",3,1,1.66,4,5.75,"Premier League",2019,0,1
 2018-12-04,"Bournemouth","Huddersfield","H",2,1,1.66,3.9,5.8,"Premier League",2019,0,1
 2018-12-04,"Brighton","Crystal Palace","H",3,1,2.87,3.1,2.8,"Premier League",2019,0,1
-2018-12-04,"West Ham","Cardiff","H",3,1,1.66,4,5.75,"Premier League",2019,0,1
 2018-12-03,"Nurnberg","Leverkusen","D",1,1,5,4,1.64,"Bundesliga",2019,0,1
 2018-12-03,"West Brom","Brentford","D",1,1,1.85,3.9,4.33,"Championship",2019,0,1
 2018-12-02,"Ein Frankfurt","Wolfsburg","A",1,2,1.9,3.75,3.8,"Bundesliga",2019,0,1
@@ -347,35 +362,35 @@
 2018-12-01,"Stuttgart","Augsburg","H",1,0,2.54,3.4,2.8,"Bundesliga",2019,0,1
 2018-12-01,"Werder Bremen","Bayern Munich","A",1,2,8,5.5,1.33,"Bundesliga",2019,0,1
 2018-12-01,"Middlesbrough","Aston Villa","A",0,3,2.1,3.4,3.9,"Championship",2019,0,1
-2018-12-01,"Bolton","Wigan","D",1,1,3.3,3.25,2.4,"Championship",2019,0,1
-2018-12-01,"Reading","Stoke","D",2,2,4.2,3.6,1.95,"Championship",2019,0,1
-2018-12-01,"Derby","Swansea","H",2,1,1.95,3.5,4.33,"Championship",2019,0,1
 2018-12-01,"Norwich","Rotherham","H",3,1,1.44,4.6,8.5,"Championship",2019,0,1
 2018-12-01,"Birmingham","Preston","H",3,0,2.45,3.25,3.25,"Championship",2019,0,1
 2018-12-01,"Nott'm Forest","Ipswich","H",2,0,1.7,3.6,6.25,"Championship",2019,0,1
 2018-12-01,"Blackburn","Sheffield Weds","H",4,2,2.14,3.4,3.75,"Championship",2019,0,1
 2018-12-01,"QPR","Hull","A",2,3,2,3.5,4.2,"Championship",2019,0,1
+2018-12-01,"Bolton","Wigan","D",1,1,3.3,3.25,2.4,"Championship",2019,0,1
+2018-12-01,"Reading","Stoke","D",2,2,4.2,3.6,1.95,"Championship",2019,0,1
+2018-12-01,"Derby","Swansea","H",2,1,1.95,3.5,4.33,"Championship",2019,0,1
 2018-12-01,"Sheffield United","Leeds","A",0,1,2.3,3.5,3.25,"Championship",2019,0,1
 2018-12-01,"Southampton","Man United","D",2,2,4,3.3,2.1,"Premier League",2019,0,1
-2018-12-01,"Crystal Palace","Burnley","H",2,0,1.55,4,7.5,"Premier League",2019,0,1
-2018-12-01,"Huddersfield","Brighton","A",1,2,2.5,2.9,3.6,"Premier League",2019,0,1
 2018-12-01,"Leicester","Watford","H",2,0,2.37,3.3,3.3,"Premier League",2019,0,1
 2018-12-01,"Man City","Bournemouth","H",3,1,1.11,11,26,"Premier League",2019,0,1
 2018-12-01,"Norrkoping","West Ham","A",0,3,2.5,3.4,3,"Premier League",2019,0,1
+2018-12-01,"Crystal Palace","Burnley","H",2,0,1.55,4,7.5,"Premier League",2019,0,1
+2018-12-01,"Huddersfield","Brighton","A",1,2,2.5,2.9,3.6,"Premier League",2019,0,1
 2018-11-30,"Fortuna Dusseldorf","Mainz","A",0,1,2.7,3.3,2.6,"Bundesliga",2019,0,1
 2018-11-30,"Cardiff","Wolves","H",2,1,3.8,3.25,2.2,"Premier League",2019,0,1
 2018-11-28,"Stoke","Derby","H",2,1,2.4,3.3,3.25,"Championship",2019,0,1
+2018-11-28,"Aston Villa","Nott'm Forest","D",5,5,2,3.5,4.2,"Championship",2019,0,1
+2018-11-28,"Ipswich","Bristol City","A",2,3,3.4,3.1,2.45,"Championship",2019,0,1
 2018-11-28,"Swansea","West Brom","A",1,2,2.9,3.4,2.6,"Championship",2019,0,1
 2018-11-28,"Millwall","Birmingham","A",0,2,2.2,3.4,3.6,"Championship",2019,0,1
 2018-11-28,"Wigan","Blackburn","H",3,1,2.7,3.2,2.9,"Championship",2019,0,1
-2018-11-28,"Aston Villa","Nott'm Forest","D",5,5,2,3.5,4.2,"Championship",2019,0,1
-2018-11-28,"Ipswich","Bristol City","A",2,3,3.4,3.1,2.45,"Championship",2019,0,1
+2018-11-27,"Brentford","Sheffield United","A",2,3,2.6,3.5,2.8,"Championship",2019,0,1
+2018-11-27,"Preston","Middlesbrough","D",1,1,3,3.2,2.62,"Championship",2019,0,1
 2018-11-27,"Hull","Norwich","D",0,0,3.7,3.6,2.1,"Championship",2019,0,1
 2018-11-27,"Sheffield Weds","Bolton","H",1,0,2.04,3.4,4.2,"Championship",2019,0,1
 2018-11-27,"Leeds","Reading","H",1,0,1.4,4.75,10,"Championship",2019,0,1
 2018-11-27,"Rotherham","QPR","D",2,2,3.1,3.3,2.5,"Championship",2019,0,1
-2018-11-27,"Brentford","Sheffield United","A",2,3,2.6,3.5,2.8,"Championship",2019,0,1
-2018-11-27,"Preston","Middlesbrough","D",1,1,3,3.2,2.62,"Championship",2019,0,1
 2018-11-26,"Burnley","Norrkoping","A",1,2,3,3.2,2.62,"Premier League",2019,0,1
 2018-11-25,"Brommapojkarna","AFC Eskilstuna","A",NA,NA,2.38,3.01,3.18,"Allsvenskan",2018,0,1
 2018-11-25,"M'gladbach","Hannover","H",4,1,1.4,4.5,8,"Bundesliga",2019,0,1
@@ -384,28 +399,28 @@
 2018-11-25,"Wolves","Huddersfield","A",0,2,1.61,3.7,7.5,"Premier League",2019,0,1
 2018-11-25,"Bournemouth","Arsenal","A",1,2,3.5,3.7,2.14,"Premier League",2019,0,1
 2018-11-24,"Schalke 04","Nurnberg","H",5,2,1.5,4,7.5,"Bundesliga",2019,0,1
+2018-11-24,"Wolfsburg","RB Leipzig","H",1,0,3.2,3.5,2.2,"Bundesliga",2019,0,1
 2018-11-24,"Hertha","Hoffenheim","D",3,3,3.5,3.8,1.95,"Bundesliga",2019,0,1
 2018-11-24,"Augsburg","Ein Frankfurt","A",1,3,2.75,3.5,2.45,"Bundesliga",2019,0,1
 2018-11-24,"Bayern Munich","Fortuna Dusseldorf","D",3,3,1.08,11,26,"Bundesliga",2019,0,1
 2018-11-24,"Mainz","Dortmund","A",1,2,5.75,4,1.57,"Bundesliga",2019,0,1
-2018-11-24,"Wolfsburg","RB Leipzig","H",1,0,3.2,3.5,2.2,"Bundesliga",2019,0,1
 2018-11-24,"Brentford","Middlesbrough","A",1,2,2.5,3.25,3.2,"Championship",2019,0,1
-2018-11-24,"Sheffield Weds","Derby","A",1,2,3.7,3.6,2.1,"Championship",2019,0,1
-2018-11-24,"Hull","Nott'm Forest","A",0,2,2.62,3.3,2.9,"Championship",2019,0,1
-2018-11-24,"Stoke","QPR","D",2,2,2,3.5,4.2,"Championship",2019,0,1
 2018-11-24,"Swansea","Norwich","A",1,4,2.5,3.4,3,"Championship",2019,0,1
 2018-11-24,"Leeds","Bristol City","H",2,0,1.83,3.75,4.75,"Championship",2019,0,1
 2018-11-24,"Wigan","Reading","D",0,0,1.8,3.8,4.75,"Championship",2019,0,1
 2018-11-24,"Millwall","Bolton","D",1,1,1.64,3.75,6.5,"Championship",2019,0,1
 2018-11-24,"Preston","Blackburn","H",4,1,2.2,3.5,3.5,"Championship",2019,0,1
+2018-11-24,"Sheffield Weds","Derby","A",1,2,3.7,3.6,2.1,"Championship",2019,0,1
+2018-11-24,"Hull","Nott'm Forest","A",0,2,2.62,3.3,2.9,"Championship",2019,0,1
+2018-11-24,"Stoke","QPR","D",2,2,2,3.5,4.2,"Championship",2019,0,1
 2018-11-24,"Rotherham","Sheffield United","D",2,2,5.25,3.8,1.75,"Championship",2019,0,1
 2018-11-24,"Tottenham","Chelsea","H",3,1,3.1,3.4,2.45,"Premier League",2019,0,1
-2018-11-24,"Watford","Liverpool","A",0,3,6,4.5,1.57,"Premier League",2019,0,1
-2018-11-24,"West Ham","Man City","A",0,4,15,7,1.22,"Premier League",2019,0,1
-2018-11-24,"Brighton","Leicester","D",1,1,2.9,3.2,2.7,"Premier League",2019,0,1
 2018-11-24,"Everton","Cardiff","H",1,0,1.4,4.75,10,"Premier League",2019,0,1
+2018-11-24,"Brighton","Leicester","D",1,1,2.9,3.2,2.7,"Premier League",2019,0,1
 2018-11-24,"Fulham","Southampton","H",3,2,2.75,3.3,2.8,"Premier League",2019,0,1
 2018-11-24,"Man United","Crystal Palace","D",0,0,1.4,5,9,"Premier League",2019,0,1
+2018-11-24,"Watford","Liverpool","A",0,3,6,4.5,1.57,"Premier League",2019,0,1
+2018-11-24,"West Ham","Man City","A",0,4,15,7,1.22,"Premier League",2019,0,1
 2018-11-23,"Leverkusen","Stuttgart","H",2,0,1.44,4.75,6,"Bundesliga",2019,0,1
 2018-11-23,"Ipswich","West Brom","A",1,2,4.5,3.6,1.9,"Championship",2019,0,1
 2018-11-22,"AFC Eskilstuna","Brommapojkarna","A",NA,NA,2.31,3,3.34,"Allsvenskan",2018,0,1
@@ -424,22 +439,22 @@
 2018-11-11,"Chelsea","Everton","D",0,0,1.4,5,9,"Premier League",2019,0,1
 2018-11-11,"Liverpool","Fulham","H",2,0,1.1,12,29,"Premier League",2019,0,1
 2018-11-10,"Dortmund","Bayern Munich","H",3,2,3.4,3.8,2,"Bundesliga",2019,0,1
+2018-11-10,"Werder Bremen","M'gladbach","A",1,3,2.3,3.75,2.8,"Bundesliga",2019,0,1
 2018-11-10,"Freiburg","Mainz","A",1,3,2.14,3.25,3.5,"Bundesliga",2019,0,1
 2018-11-10,"Hoffenheim","Augsburg","H",2,1,1.53,4.5,5.5,"Bundesliga",2019,0,1
 2018-11-10,"Fortuna Dusseldorf","Hertha","H",4,1,3.25,3.6,2.14,"Bundesliga",2019,0,1
 2018-11-10,"Nurnberg","Stuttgart","A",0,2,2.37,3.4,3,"Bundesliga",2019,0,1
-2018-11-10,"Werder Bremen","M'gladbach","A",1,3,2.3,3.75,2.8,"Bundesliga",2019,0,1
 2018-11-10,"West Brom","Leeds","H",4,1,2.75,3.4,2.75,"Championship",2019,0,1
 2018-11-10,"Bristol City","Preston","A",0,1,2.1,3.5,3.75,"Championship",2019,0,1
 2018-11-10,"Birmingham","Hull","D",3,3,2.14,3.3,3.9,"Championship",2019,0,1
 2018-11-10,"Blackburn","Rotherham","D",1,1,1.75,3.75,5.25,"Championship",2019,0,1
+2018-11-10,"QPR","Brentford","H",3,2,3.2,3.5,2.3,"Championship",2019,0,1
 2018-11-10,"Bolton","Swansea","A",0,1,4,3.4,2.1,"Championship",2019,0,1
 2018-11-10,"Reading","Ipswich","D",2,2,2.35,3.25,3.4,"Championship",2019,0,1
 2018-11-10,"Derby","Aston Villa","A",0,3,2.1,3.5,3.8,"Championship",2019,0,1
 2018-11-10,"Middlesbrough","Wigan","H",2,0,1.61,3.9,6.5,"Championship",2019,0,1
 2018-11-10,"Norwich","Millwall","H",4,3,1.8,3.8,4.75,"Championship",2019,0,1
 2018-11-10,"Nott'm Forest","Stoke","D",0,0,2.6,3.3,3,"Championship",2019,0,1
-2018-11-10,"QPR","Brentford","H",3,2,3.2,3.5,2.3,"Championship",2019,0,1
 2018-11-10,"Crystal Palace","Tottenham","A",0,1,4.8,4,1.75,"Premier League",2019,0,1
 2018-11-10,"Huddersfield","West Ham","D",1,1,3.4,3.4,2.3,"Premier League",2019,0,1
 2018-11-10,"Leicester","Burnley","D",0,0,1.5,4.33,8,"Premier League",2019,0,1
@@ -472,18 +487,18 @@
 2018-11-03,"Rotherham","Swansea","H",2,1,3.6,3.4,2.2,"Championship",2019,0,1
 2018-11-03,"Sheffield Weds","Norwich","A",0,4,3.3,3.5,2.3,"Championship",2019,0,1
 2018-11-03,"Ipswich","Preston","D",1,1,3.5,3.4,2.25,"Championship",2019,0,1
+2018-11-03,"Reading","Bristol City","H",3,2,3.5,3.4,2.25,"Championship",2019,0,1
+2018-11-03,"Blackburn","QPR","H",1,0,2.37,3.3,3,"Championship",2019,0,1
 2018-11-03,"Brentford","Millwall","H",2,0,1.95,3.6,4.2,"Championship",2019,0,1
 2018-11-03,"Derby","Birmingham","H",3,1,2,3.5,4.2,"Championship",2019,0,1
 2018-11-03,"Hull","West Brom","H",1,0,3.2,3.6,2.3,"Championship",2019,0,1
 2018-11-03,"Nott'm Forest","Sheffield United","H",1,0,3,3.4,2.5,"Championship",2019,0,1
-2018-11-03,"Reading","Bristol City","H",3,2,3.5,3.4,2.25,"Championship",2019,0,1
-2018-11-03,"Blackburn","QPR","H",1,0,2.37,3.3,3,"Championship",2019,0,1
 2018-11-03,"Wolves","Tottenham","A",2,3,3.2,3.4,2.37,"Premier League",2019,0,1
 2018-11-03,"Arsenal","Liverpool","D",1,1,4,4,1.9,"Premier League",2019,0,1
-2018-11-03,"Norrkoping","Watford","H",1,0,2.8,3.25,2.75,"Premier League",2019,0,1
 2018-11-03,"West Ham","Burnley","H",4,2,1.64,3.9,6,"Premier League",2019,0,1
 2018-11-03,"Cardiff","Leicester","A",0,1,3.4,3.4,2.3,"Premier League",2019,0,1
 2018-11-03,"Everton","Brighton","H",3,1,1.57,4,7,"Premier League",2019,0,1
+2018-11-03,"Norrkoping","Watford","H",1,0,2.8,3.25,2.75,"Premier League",2019,0,1
 2018-11-03,"Bournemouth","Man United","A",1,2,3.9,3.75,2,"Premier League",2019,0,1
 2018-11-02,"Stuttgart","Ein Frankfurt","A",0,3,2.87,3.5,2.37,"Bundesliga",2019,0,1
 2018-11-02,"Aston Villa","Bolton","H",2,0,1.44,4.5,8.5,"Championship",2019,0,1
@@ -509,20 +524,20 @@
 2018-10-28,"Crystal Palace","Arsenal","D",2,2,4.75,4.2,1.72,"Premier League",2019,0,1
 2018-10-27,"Dalkurd","Hacken","A",NA,NA,5.22,3.97,1.63,"Allsvenskan",2018,0,1
 2018-10-27,"Hoffenheim","Stuttgart","H",4,0,1.5,4.75,6,"Bundesliga",2019,0,1
-2018-10-27,"Mainz","Bayern Munich","A",1,2,15,7,1.2,"Bundesliga",2019,0,1
 2018-10-27,"Fortuna Dusseldorf","Wolfsburg","A",0,3,3.25,3.5,2.2,"Bundesliga",2019,0,1
 2018-10-27,"Dortmund","Hertha","D",2,2,1.5,4.33,6.5,"Bundesliga",2019,0,1
 2018-10-27,"Hannover","Augsburg","A",1,2,2.37,3.4,2.87,"Bundesliga",2019,0,1
+2018-10-27,"Mainz","Bayern Munich","A",1,2,15,7,1.2,"Bundesliga",2019,0,1
 2018-10-27,"Leeds","Nott'm Forest","D",1,1,1.8,3.8,4.75,"Championship",2019,0,1
 2018-10-27,"Preston","Rotherham","D",1,1,1.66,3.8,6,"Championship",2019,0,1
 2018-10-27,"Millwall","Ipswich","H",3,0,1.64,4.1,5.75,"Championship",2019,0,1
+2018-10-27,"Norwich","Brentford","H",1,0,2.4,3.5,3.1,"Championship",2019,0,1
+2018-10-27,"Birmingham","Sheffield Weds","H",3,1,1.95,3.4,4.5,"Championship",2019,0,1
 2018-10-27,"Bolton","Hull","A",0,1,2.9,3.3,2.62,"Championship",2019,0,1
 2018-10-27,"Bristol City","Stoke","A",0,1,2.7,3.25,2.87,"Championship",2019,0,1
 2018-10-27,"Sheffield United","Wigan","H",4,2,1.66,4.2,5.25,"Championship",2019,0,1
 2018-10-27,"Swansea","Reading","H",2,0,1.8,3.8,4.75,"Championship",2019,0,1
 2018-10-27,"West Brom","Blackburn","D",1,1,1.8,3.8,4.75,"Championship",2019,0,1
-2018-10-27,"Norwich","Brentford","H",1,0,2.4,3.5,3.1,"Championship",2019,0,1
-2018-10-27,"Birmingham","Sheffield Weds","H",3,1,1.95,3.4,4.5,"Championship",2019,0,1
 2018-10-27,"Middlesbrough","Derby","D",1,1,2.2,3.25,3.8,"Championship",2019,0,1
 2018-10-27,"Leicester","West Ham","D",1,1,2,3.6,4,"Premier League",2019,0,1
 2018-10-27,"Liverpool","Cardiff","H",4,1,1.11,11,29,"Premier League",2019,0,1
@@ -536,16 +551,16 @@
 2018-10-26,"QPR","Aston Villa","H",1,0,2.62,3.4,2.87,"Championship",2019,0,1
 2018-10-24,"Bolton","Nott'm Forest","A",0,3,3.6,3.2,2.3,"Championship",2019,0,1
 2018-10-24,"West Brom","Derby","A",1,4,2.04,3.6,3.8,"Championship",2019,0,1
+2018-10-24,"Bristol City","Hull","H",1,0,1.9,3.6,4.5,"Championship",2019,0,1
 2018-10-24,"Leeds","Ipswich","H",2,0,1.44,4.5,8.5,"Championship",2019,0,1
 2018-10-24,"Preston","Brentford","H",4,3,3,3.6,2.4,"Championship",2019,0,1
-2018-10-24,"Bristol City","Hull","H",1,0,1.9,3.6,4.5,"Championship",2019,0,1
-2018-10-23,"Norwich","Aston Villa","H",2,1,2.25,3.4,3.5,"Championship",2019,0,1
-2018-10-23,"QPR","Sheffield Weds","H",3,0,2,3.5,4.1,"Championship",2019,0,1
-2018-10-23,"Sheffield United","Stoke","D",1,1,2.04,3.4,4.1,"Championship",2019,0,1
 2018-10-23,"Swansea","Blackburn","H",3,1,2.2,3.3,3.7,"Championship",2019,0,1
 2018-10-23,"Birmingham","Reading","H",2,1,1.72,3.75,5.5,"Championship",2019,0,1
 2018-10-23,"Middlesbrough","Rotherham","D",0,0,1.4,4.8,9.5,"Championship",2019,0,1
 2018-10-23,"Millwall","Wigan","H",2,1,2.25,3.4,3.5,"Championship",2019,0,1
+2018-10-23,"Norwich","Aston Villa","H",2,1,2.25,3.4,3.5,"Championship",2019,0,1
+2018-10-23,"QPR","Sheffield Weds","H",3,0,2,3.5,4.1,"Championship",2019,0,1
+2018-10-23,"Sheffield United","Stoke","D",1,1,2.04,3.4,4.1,"Championship",2019,0,1
 2018-10-22,"Brommapojkarna","Goteborg","A",NA,NA,3.18,3.34,2.25,"Allsvenskan",2018,0,1
 2018-10-22,"Arsenal","Leicester","H",3,1,1.53,4.6,6.5,"Premier League",2019,0,1
 2018-10-21,"Djurgarden","AIK","D",NA,NA,3.68,3.16,2.14,"Allsvenskan",2018,0,1
@@ -559,21 +574,21 @@
 2018-10-20,"Malmo FF","Hammarby","H",NA,NA,1.75,3.91,4.36,"Allsvenskan",2018,0,1
 2018-10-20,"Dalkurd","Orebro","H",NA,NA,3.09,3.38,2.28,"Allsvenskan",2018,0,1
 2018-10-20,"Schalke 04","Werder Bremen","A",0,2,2.04,3.4,3.75,"Bundesliga",2019,0,1
-2018-10-20,"Nurnberg","Hoffenheim","A",1,3,4.5,4.2,1.7,"Bundesliga",2019,0,1
-2018-10-20,"Stuttgart","Dortmund","A",0,4,4.5,3.75,1.75,"Bundesliga",2019,0,1
 2018-10-20,"Augsburg","RB Leipzig","D",0,0,3.2,3.75,2.1,"Bundesliga",2019,0,1
 2018-10-20,"Wolfsburg","Bayern Munich","A",1,3,9.5,5.75,1.3,"Bundesliga",2019,0,1
 2018-10-20,"Leverkusen","Hannover","D",2,2,1.53,4.2,6,"Bundesliga",2019,0,1
+2018-10-20,"Nurnberg","Hoffenheim","A",1,3,4.5,4.2,1.7,"Bundesliga",2019,0,1
+2018-10-20,"Stuttgart","Dortmund","A",0,4,4.5,3.75,1.75,"Bundesliga",2019,0,1
 2018-10-20,"Derby","Sheffield United","H",2,1,2.75,3.4,2.75,"Championship",2019,0,1
-2018-10-20,"Rotherham","Bolton","D",1,1,2.25,3.3,3.6,"Championship",2019,0,1
-2018-10-20,"Brentford","Bristol City","A",0,1,1.7,4,5.25,"Championship",2019,0,1
-2018-10-20,"Stoke","Birmingham","A",0,1,2,3.3,4.5,"Championship",2019,0,1
 2018-10-20,"Hull","Preston","D",1,1,2.75,3.4,2.7,"Championship",2019,0,1
 2018-10-20,"Wigan","West Brom","H",1,0,3.2,3.7,2.25,"Championship",2019,0,1
 2018-10-20,"Ipswich","QPR","A",0,2,2.8,3.2,2.8,"Championship",2019,0,1
 2018-10-20,"Nott'm Forest","Norwich","A",1,2,2.37,3.4,3.2,"Championship",2019,0,1
 2018-10-20,"Aston Villa","Swansea","H",1,0,1.85,3.6,4.75,"Championship",2019,0,1
 2018-10-20,"Reading","Millwall","H",3,1,3,3.25,2.6,"Championship",2019,0,1
+2018-10-20,"Rotherham","Bolton","D",1,1,2.25,3.3,3.6,"Championship",2019,0,1
+2018-10-20,"Brentford","Bristol City","A",0,1,1.7,4,5.25,"Championship",2019,0,1
+2018-10-20,"Stoke","Birmingham","A",0,1,2,3.3,4.5,"Championship",2019,0,1
 2018-10-20,"Blackburn","Leeds","H",2,1,3.4,3.4,2.3,"Championship",2019,0,1
 2018-10-20,"Huddersfield","Liverpool","A",0,1,13,5.5,1.3,"Premier League",2019,0,1
 2018-10-20,"West Ham","Tottenham","A",0,1,4.1,3.9,1.9,"Premier League",2019,0,1
@@ -605,37 +620,37 @@
 2018-10-06,"Fortuna Dusseldorf","Schalke 04","A",0,2,3.75,3.5,2,"Bundesliga",2019,0,1
 2018-10-06,"Dortmund","Augsburg","H",4,3,1.5,4.33,6.5,"Bundesliga",2019,0,1
 2018-10-06,"Bolton","Blackburn","A",0,1,3.6,3.2,2.3,"Championship",2019,0,1
-2018-10-06,"Preston","Wigan","H",4,0,2.37,3.4,3.2,"Championship",2019,0,1
-2018-10-06,"QPR","Derby","D",1,1,2.9,3.3,2.62,"Championship",2019,0,1
-2018-10-06,"Sheffield United","Hull","H",1,0,1.57,4.2,6.5,"Championship",2019,0,1
 2018-10-06,"Swansea","Ipswich","A",2,3,1.9,3.4,4.75,"Championship",2019,0,1
 2018-10-06,"Middlesbrough","Nott'm Forest","A",0,2,1.75,3.7,5.5,"Championship",2019,0,1
 2018-10-06,"West Brom","Reading","H",4,1,1.5,4.5,7.5,"Championship",2019,0,1
 2018-10-06,"Millwall","Aston Villa","H",2,1,2.8,3.3,2.75,"Championship",2019,0,1
 2018-10-06,"Norwich","Stoke","A",0,1,2.54,3.3,3,"Championship",2019,0,1
 2018-10-06,"Birmingham","Rotherham","H",3,1,1.7,3.8,5.75,"Championship",2019,0,1
+2018-10-06,"Preston","Wigan","H",4,0,2.37,3.4,3.2,"Championship",2019,0,1
+2018-10-06,"QPR","Derby","D",1,1,2.9,3.3,2.62,"Championship",2019,0,1
+2018-10-06,"Sheffield United","Hull","H",1,0,1.57,4.2,6.5,"Championship",2019,0,1
 2018-10-06,"Leeds","Brentford","D",1,1,2.04,3.7,3.7,"Championship",2019,0,1
 2018-10-06,"Man United","Norrkoping","H",3,2,1.4,4.75,10,"Premier League",2019,0,1
+2018-10-06,"Crystal Palace","Wolves","A",0,1,3,3.2,2.62,"Premier League",2019,0,1
 2018-10-06,"Watford","Bournemouth","A",0,4,2.1,3.6,3.7,"Premier League",2019,0,1
 2018-10-06,"Leicester","Everton","A",1,2,2.25,3.4,3.5,"Premier League",2019,0,1
 2018-10-06,"Burnley","Huddersfield","D",1,1,2.25,3.1,3.9,"Premier League",2019,0,1
 2018-10-06,"Tottenham","Cardiff","H",1,0,1.25,6.75,13,"Premier League",2019,0,1
-2018-10-06,"Crystal Palace","Wolves","A",0,1,3,3.2,2.62,"Premier League",2019,0,1
 2018-10-05,"Ostersunds","Dalkurd","H",NA,NA,1.41,4.65,7.55,"Allsvenskan",2018,0,1
 2018-10-05,"Werder Bremen","Wolfsburg","H",2,0,1.95,3.6,3.8,"Bundesliga",2019,0,1
 2018-10-05,"Brighton","West Ham","H",1,0,2.75,3.25,2.8,"Premier League",2019,0,1
-2018-10-03,"Blackburn","Sheffield United","A",0,2,3.4,3.4,2.3,"Championship",2019,0,1
-2018-10-03,"Derby","Norwich","D",1,1,2,3.5,4.1,"Championship",2019,0,1
 2018-10-03,"Nott'm Forest","Millwall","D",2,2,1.85,3.6,4.75,"Championship",2019,0,1
 2018-10-03,"Rotherham","Bristol City","D",0,0,3.8,3.6,2.04,"Championship",2019,0,1
 2018-10-03,"Sheffield Weds","West Brom","D",2,2,4,3.75,1.95,"Championship",2019,0,1
+2018-10-03,"Blackburn","Sheffield United","A",0,2,3.4,3.4,2.3,"Championship",2019,0,1
+2018-10-03,"Derby","Norwich","D",1,1,2,3.5,4.1,"Championship",2019,0,1
 2018-10-02,"Reading","QPR","A",0,1,2.5,3.3,3.1,"Championship",2019,0,1
 2018-10-02,"Stoke","Bolton","H",2,0,1.5,4.33,8,"Championship",2019,0,1
+2018-10-02,"Aston Villa","Preston","D",3,3,1.83,3.7,4.75,"Championship",2019,0,1
+2018-10-02,"Wigan","Swansea","D",0,0,2.14,3.3,3.9,"Championship",2019,0,1
 2018-10-02,"Brentford","Birmingham","D",1,1,1.7,3.8,5.75,"Championship",2019,0,1
 2018-10-02,"Ipswich","Middlesbrough","A",0,2,4.5,3.2,2.04,"Championship",2019,0,1
 2018-10-02,"Hull","Leeds","A",0,1,3.6,3.6,2.14,"Championship",2019,0,1
-2018-10-02,"Wigan","Swansea","D",0,0,2.14,3.3,3.9,"Championship",2019,0,1
-2018-10-02,"Aston Villa","Preston","D",3,3,1.83,3.7,4.75,"Championship",2019,0,1
 2018-10-01,"Elfsborg","Hacken","A",NA,NA,2.86,3.49,2.37,"Allsvenskan",2018,0,1
 2018-10-01,"Hammarby","Goteborg","H",NA,NA,1.41,4.67,7.37,"Allsvenskan",2018,0,1
 2018-10-01,"Orebro","Trelleborgs","H",NA,NA,1.5,4.35,6.18,"Allsvenskan",2018,0,1
@@ -649,12 +664,13 @@
 2018-09-30,"Cardiff","Burnley","A",1,2,2.45,3.1,3.4,"Premier League",2019,0,1
 2018-09-29,"Sirius","Norrkoping","D",NA,NA,4.93,3.91,1.67,"Allsvenskan",2018,0,1
 2018-09-29,"Leverkusen","Dortmund","A",2,4,2.4,3.5,2.75,"Bundesliga",2019,0,1
+2018-09-29,"Nurnberg","Fortuna Dusseldorf","H",3,0,2.25,3.4,3.2,"Bundesliga",2019,0,1
+2018-09-29,"Stuttgart","Werder Bremen","H",2,1,2.7,3.25,2.7,"Bundesliga",2019,0,1
 2018-09-29,"Schalke 04","Mainz","H",1,0,1.57,3.8,6,"Bundesliga",2019,0,1
 2018-09-29,"Wolfsburg","M'gladbach","D",2,2,2.25,3.4,3.25,"Bundesliga",2019,0,1
 2018-09-29,"Hoffenheim","RB Leipzig","A",1,2,2.14,3.75,3.1,"Bundesliga",2019,0,1
-2018-09-29,"Nurnberg","Fortuna Dusseldorf","H",3,0,2.25,3.4,3.2,"Bundesliga",2019,0,1
-2018-09-29,"Stuttgart","Werder Bremen","H",2,1,2.7,3.25,2.7,"Bundesliga",2019,0,1
 2018-09-29,"Rotherham","Stoke","D",2,2,3.9,3.4,2.1,"Championship",2019,0,1
+2018-09-29,"Millwall","Sheffield United","A",2,3,3.2,3.4,2.4,"Championship",2019,0,1
 2018-09-29,"Birmingham","Ipswich","D",2,2,2,3.3,4.5,"Championship",2019,0,1
 2018-09-29,"Norwich","Wigan","H",1,0,2.3,3.4,3.4,"Championship",2019,0,1
 2018-09-29,"Blackburn","Nott'm Forest","D",2,2,2.54,3.2,3.1,"Championship",2019,0,1
@@ -663,7 +679,6 @@
 2018-09-29,"Brentford","Reading","D",2,2,1.5,4.5,7.5,"Championship",2019,0,1
 2018-09-29,"Swansea","QPR","H",3,0,2.3,3.3,3.5,"Championship",2019,0,1
 2018-09-29,"Hull","Middlesbrough","D",1,1,4,3.3,2.1,"Championship",2019,0,1
-2018-09-29,"Millwall","Sheffield United","A",2,3,3.2,3.4,2.4,"Championship",2019,0,1
 2018-09-29,"Chelsea","Liverpool","D",1,1,2.8,3.5,2.62,"Premier League",2019,0,1
 2018-09-29,"Man City","Brighton","H",2,0,1.08,13,34,"Premier League",2019,0,1
 2018-09-29,"Arsenal","Watford","H",2,0,1.5,4.75,7,"Premier League",2019,0,1
@@ -682,10 +697,10 @@
 2018-09-26,"Ostersunds","Brommapojkarna","H",NA,NA,1.47,4.42,6.47,"Allsvenskan",2018,0,1
 2018-09-26,"Sundsvall","Djurgarden","D",NA,NA,2.97,3.33,2.38,"Allsvenskan",2018,0,1
 2018-09-26,"Trelleborgs","Dalkurd","A",NA,NA,2.58,3.34,2.69,"Allsvenskan",2018,0,1
+2018-09-26,"Dortmund","Nurnberg","H",7,0,1.36,5,8.5,"Bundesliga",2019,0,1
 2018-09-26,"RB Leipzig","Stuttgart","H",2,0,1.55,4,6,"Bundesliga",2019,0,1
 2018-09-26,"M'gladbach","Ein Frankfurt","H",3,1,1.95,3.6,3.75,"Bundesliga",2019,0,1
 2018-09-26,"Mainz","Wolfsburg","D",0,0,2.5,3.25,2.87,"Bundesliga",2019,0,1
-2018-09-26,"Dortmund","Nurnberg","H",7,0,1.36,5,8.5,"Bundesliga",2019,0,1
 2018-09-26,"Fortuna Dusseldorf","Leverkusen","A",1,2,3.7,3.6,2,"Bundesliga",2019,0,1
 2018-09-25,"Orebro","Sirius","D",NA,NA,1.89,3.56,4.01,"Allsvenskan",2018,0,1
 2018-09-25,"Hannover","Hoffenheim","A",1,3,3.1,3.8,2.14,"Bundesliga",2019,0,1
@@ -710,6 +725,7 @@
 2018-09-22,"Hoffenheim","Dortmund","D",1,1,2.5,3.75,2.62,"Bundesliga",2019,0,1
 2018-09-22,"Nurnberg","Hannover","H",2,0,2.6,3.25,2.8,"Bundesliga",2019,0,1
 2018-09-22,"QPR","Norwich","A",0,1,2.3,3.4,3.4,"Championship",2019,0,1
+2018-09-22,"Nott'm Forest","Rotherham","H",1,0,1.8,3.6,5.25,"Championship",2019,0,1
 2018-09-22,"Aston Villa","Sheffield Weds","A",1,2,1.6,4.2,6,"Championship",2019,0,1
 2018-09-22,"Reading","Hull","H",3,0,2.5,3.4,3,"Championship",2019,0,1
 2018-09-22,"Derby","Brentford","H",3,1,3,3.4,2.5,"Championship",2019,0,1
@@ -719,7 +735,6 @@
 2018-09-22,"Leeds","Birmingham","A",1,2,1.8,3.6,5.25,"Championship",2019,0,1
 2018-09-22,"West Brom","Millwall","H",2,0,1.61,4.33,5.75,"Championship",2019,0,1
 2018-09-22,"Middlesbrough","Swansea","D",0,0,1.61,4,6.5,"Championship",2019,0,1
-2018-09-22,"Nott'm Forest","Rotherham","H",1,0,1.8,3.6,5.25,"Championship",2019,0,1
 2018-09-22,"Brighton","Tottenham","A",1,2,5.25,4,1.7,"Premier League",2019,0,1
 2018-09-22,"Cardiff","Man City","A",0,5,23,9,1.14,"Premier League",2019,0,1
 2018-09-22,"Crystal Palace","Norrkoping","D",0,0,2.04,3.4,4.1,"Premier League",2019,0,1
@@ -736,8 +751,8 @@
 2018-09-19,"Nott'm Forest","Sheffield Weds","H",2,1,2,3.5,4.1,"Championship",2019,0,1
 2018-09-19,"QPR","Millwall","H",2,0,2.4,3.3,3.25,"Championship",2019,0,1
 2018-09-19,"Sheffield United","Birmingham","D",0,0,1.72,3.75,5.5,"Championship",2019,0,1
-2018-09-18,"Stoke","Swansea","H",1,0,1.72,3.8,5.5,"Championship",2019,0,1
 2018-09-18,"West Brom","Bristol City","H",4,2,1.95,3.5,4.33,"Championship",2019,0,1
+2018-09-18,"Stoke","Swansea","H",1,0,1.72,3.8,5.5,"Championship",2019,0,1
 2018-09-18,"Aston Villa","Rotherham","H",2,0,1.44,4.6,8.5,"Championship",2019,0,1
 2018-09-18,"Ipswich","Brentford","D",1,1,4.6,3.75,1.83,"Championship",2019,0,1
 2018-09-18,"Derby","Blackburn","D",0,0,2.14,3.4,3.75,"Championship",2019,0,1
@@ -757,12 +772,13 @@
 2018-09-15,"Orebro","Sundsvall","H",NA,NA,2.37,3.37,2.96,"Allsvenskan",2018,0,1
 2018-09-15,"Ostersunds","Malmo FF","A",NA,NA,3.96,3.53,1.92,"Allsvenskan",2018,0,1
 2018-09-15,"M'gladbach","Schalke 04","H",2,1,2.75,3.4,2.6,"Bundesliga",2019,0,1
+2018-09-15,"Mainz","Augsburg","H",2,1,2.8,3.3,2.6,"Bundesliga",2019,0,1
+2018-09-15,"Bayern Munich","Leverkusen","H",3,1,1.16,8,15,"Bundesliga",2019,0,1
 2018-09-15,"Wolfsburg","Hertha","D",2,2,2.04,3.3,3.8,"Bundesliga",2019,0,1
 2018-09-15,"Fortuna Dusseldorf","Hoffenheim","H",2,1,4,4.2,1.8,"Bundesliga",2019,0,1
 2018-09-15,"RB Leipzig","Hannover","H",3,2,1.5,4.5,5.75,"Bundesliga",2019,0,1
-2018-09-15,"Mainz","Augsburg","H",2,1,2.8,3.3,2.6,"Bundesliga",2019,0,1
-2018-09-15,"Bayern Munich","Leverkusen","H",3,1,1.16,8,15,"Bundesliga",2019,0,1
 2018-09-15,"Blackburn","Aston Villa","D",1,1,2.6,3.25,3,"Championship",2019,0,1
+2018-09-15,"Sheffield Weds","Stoke","D",2,2,3.1,3.4,2.45,"Championship",2019,0,1
 2018-09-15,"Norwich","Middlesbrough","H",1,0,3,3.25,2.62,"Championship",2019,0,1
 2018-09-15,"Swansea","Nott'm Forest","D",0,0,2.3,3.4,3.4,"Championship",2019,0,1
 2018-09-15,"Preston","Reading","A",2,3,1.8,3.6,5.25,"Championship",2019,0,1
@@ -772,11 +788,10 @@
 2018-09-15,"Bristol City","Sheffield United","H",1,0,2.75,3.4,2.75,"Championship",2019,0,1
 2018-09-15,"Hull","Ipswich","H",2,0,2.3,3.3,3.5,"Championship",2019,0,1
 2018-09-15,"Millwall","Leeds","D",1,1,2.8,3.25,2.8,"Championship",2019,0,1
-2018-09-15,"Sheffield Weds","Stoke","D",2,2,3.1,3.4,2.45,"Championship",2019,0,1
 2018-09-15,"Watford","Man United","A",1,2,5,3.5,1.85,"Premier League",2019,0,1
 2018-09-15,"Chelsea","Cardiff","H",4,1,1.16,8.5,21,"Premier League",2019,0,1
-2018-09-15,"Bournemouth","Leicester","H",4,2,2.45,3.4,3.1,"Premier League",2019,0,1
 2018-09-15,"Huddersfield","Crystal Palace","A",0,1,3.5,3.1,2.4,"Premier League",2019,0,1
+2018-09-15,"Bournemouth","Leicester","H",4,2,2.45,3.4,3.1,"Premier League",2019,0,1
 2018-09-15,"Man City","Fulham","H",3,0,1.1,12,29,"Premier League",2019,0,1
 2018-09-15,"Norrkoping","Arsenal","A",1,2,4.33,3.9,1.85,"Premier League",2019,0,1
 2018-09-15,"Tottenham","Liverpool","A",1,2,3.2,3.6,2.3,"Premier League",2019,0,1
@@ -791,17 +806,17 @@
 2018-09-02,"RB Leipzig","Fortuna Dusseldorf","D",1,1,1.33,5.25,9.5,"Bundesliga",2019,0,1
 2018-09-02,"Bristol City","Blackburn","H",4,1,2.2,3.3,3.7,"Championship",2019,0,1
 2018-09-02,"Ipswich","Norwich","D",1,1,2.9,3.2,2.75,"Championship",2019,0,1
-2018-09-02,"Watford","Tottenham","H",2,1,5.75,4,1.66,"Premier League",2019,0,1
 2018-09-02,"Burnley","Man United","A",0,2,6.25,4,1.61,"Premier League",2019,0,1
+2018-09-02,"Watford","Tottenham","H",2,1,5.75,4,1.66,"Premier League",2019,0,1
 2018-09-02,"Cardiff","Arsenal","A",2,3,6.25,4.5,1.55,"Premier League",2019,0,1
 2018-09-01,"AIK","Hacken","H",NA,NA,1.78,3.44,4.94,"Allsvenskan",2018,0,1
 2018-09-01,"Orebro","Ostersunds","H",NA,NA,2.93,3.3,2.43,"Allsvenskan",2018,0,1
 2018-09-01,"Stuttgart","Bayern Munich","A",0,3,11,5.75,1.28,"Bundesliga",2019,0,1
+2018-09-01,"Leverkusen","Wolfsburg","A",1,3,1.66,4,5,"Bundesliga",2019,0,1
 2018-09-01,"Ein Frankfurt","Werder Bremen","A",1,2,2.37,3.5,2.8,"Bundesliga",2019,0,1
 2018-09-01,"Augsburg","M'gladbach","D",1,1,2.75,3.4,2.6,"Bundesliga",2019,0,1
 2018-09-01,"Hoffenheim","Freiburg","H",3,1,1.5,4.2,7,"Bundesliga",2019,0,1
 2018-09-01,"Nurnberg","Mainz","D",1,1,2.7,3.2,2.75,"Bundesliga",2019,0,1
-2018-09-01,"Leverkusen","Wolfsburg","A",1,3,1.66,4,5,"Bundesliga",2019,0,1
 2018-09-01,"Millwall","Swansea","A",1,2,2.14,3.3,3.9,"Championship",2019,0,1
 2018-09-01,"Birmingham","QPR","D",0,0,2,3.4,4.33,"Championship",2019,0,1
 2018-09-01,"Preston","Bolton","D",2,2,1.61,3.75,7,"Championship",2019,0,1
@@ -812,11 +827,11 @@
 2018-09-01,"West Brom","Stoke","H",2,1,2.04,3.4,4.1,"Championship",2019,0,1
 2018-09-01,"Wigan","Rotherham","H",1,0,1.72,3.9,5.25,"Championship",2019,0,1
 2018-09-01,"Man City","Norrkoping","H",2,1,1.11,11,26,"Premier League",2019,0,1
+2018-09-01,"Brighton","Fulham","D",2,2,2.14,3.5,3.6,"Premier League",2019,0,1
 2018-09-01,"West Ham","Wolves","A",0,1,2.62,3.3,2.9,"Premier League",2019,0,1
 2018-09-01,"Chelsea","Bournemouth","H",2,0,1.3,6,11,"Premier League",2019,0,1
 2018-09-01,"Crystal Palace","Southampton","A",0,2,2.5,3.3,3.1,"Premier League",2019,0,1
 2018-09-01,"Everton","Huddersfield","D",1,1,1.6,3.9,7,"Premier League",2019,0,1
-2018-09-01,"Brighton","Fulham","D",2,2,2.14,3.5,3.6,"Premier League",2019,0,1
 2018-09-01,"Leicester","Liverpool","A",1,2,7.5,5,1.44,"Premier League",2019,0,1
 2018-08-31,"Trelleborgs","Norrkoping","D",NA,NA,7.93,4.75,1.39,"Allsvenskan",2018,0,1
 2018-08-31,"Hannover","Dortmund","D",0,0,5,4,1.66,"Bundesliga",2019,0,1
@@ -837,12 +852,13 @@
 2018-08-26,"Fulham","Burnley","H",4,2,2.04,3.3,4.2,"Premier League",2019,0,1
 2018-08-26,"Watford","Crystal Palace","H",2,1,2.5,3.3,3.1,"Premier League",2019,0,1
 2018-08-25,"M'gladbach","Leverkusen","H",2,0,2.62,3.5,2.6,"Bundesliga",2019,0,1
+2018-08-25,"Freiburg","Ein Frankfurt","A",0,2,2.4,3.1,3.1,"Bundesliga",2019,0,1
 2018-08-25,"Wolfsburg","Schalke 04","H",2,1,3.25,3.3,2.3,"Bundesliga",2019,0,1
 2018-08-25,"Fortuna Dusseldorf","Augsburg","A",1,2,2.54,3.25,2.87,"Bundesliga",2019,0,1
 2018-08-25,"Hertha","Nurnberg","H",1,0,1.75,3.6,5,"Bundesliga",2019,0,1
 2018-08-25,"Werder Bremen","Hannover","D",1,1,1.7,3.8,4.5,"Bundesliga",2019,0,1
-2018-08-25,"Freiburg","Ein Frankfurt","A",0,2,2.4,3.1,3.1,"Bundesliga",2019,0,1
 2018-08-25,"Nott'm Forest","Birmingham","D",2,2,2.04,3.4,4.2,"Championship",2019,0,1
+2018-08-25,"Swansea","Bristol City","A",0,1,2.2,3.3,3.7,"Championship",2019,0,1
 2018-08-25,"Norwich","Leeds","A",0,3,2.6,3.7,2.7,"Championship",2019,0,1
 2018-08-25,"Aston Villa","Reading","D",1,1,1.57,4.1,7,"Championship",2019,0,1
 2018-08-25,"QPR","Wigan","H",1,0,3.1,3.5,2.37,"Championship",2019,0,1
@@ -851,7 +867,6 @@
 2018-08-25,"Sheffield Weds","Ipswich","H",2,1,2.35,3.2,3.5,"Championship",2019,0,1
 2018-08-25,"Derby","Preston","H",2,0,2.6,3.1,3.1,"Championship",2019,0,1
 2018-08-25,"Stoke","Hull","H",2,0,2,3.4,4.33,"Championship",2019,0,1
-2018-08-25,"Swansea","Bristol City","A",0,1,2.2,3.3,3.7,"Championship",2019,0,1
 2018-08-25,"Liverpool","Brighton","H",1,0,1.14,9,23,"Premier League",2019,0,1
 2018-08-25,"Arsenal","West Ham","H",3,1,1.36,5.25,9.5,"Premier League",2019,0,1
 2018-08-25,"Southampton","Leicester","A",1,2,2.37,3.3,3.3,"Premier League",2019,0,1
@@ -862,12 +877,12 @@
 2018-08-24,"Middlesbrough","West Brom","H",1,0,2.62,3.1,3.1,"Championship",2019,0,1
 2018-08-22,"Stoke","Wigan","A",0,3,2.25,3.5,3.4,"Championship",2019,0,1
 2018-08-22,"Bolton","Birmingham","H",1,0,2.87,3.1,2.8,"Championship",2019,0,1
+2018-08-22,"Aston Villa","Brentford","D",2,2,2.54,3.5,2.87,"Championship",2019,0,1
 2018-08-22,"Sheffield Weds","Millwall","H",2,1,3,3.3,2.54,"Championship",2019,0,1
 2018-08-22,"Blackburn","Reading","D",2,2,1.9,3.5,4.75,"Championship",2019,0,1
 2018-08-22,"Norwich","Preston","H",2,0,2.5,3.3,3.1,"Championship",2019,0,1
-2018-08-22,"Aston Villa","Brentford","D",2,2,2.54,3.5,2.87,"Championship",2019,0,1
-2018-08-21,"Derby","Ipswich","H",2,0,2,3.3,4.5,"Championship",2019,0,1
 2018-08-21,"Rotherham","Hull","A",2,3,3.1,3.3,2.5,"Championship",2019,0,1
+2018-08-21,"Derby","Ipswich","H",2,0,2,3.3,4.5,"Championship",2019,0,1
 2018-08-21,"QPR","Bristol City","A",0,3,2.62,3.3,2.9,"Championship",2019,0,1
 2018-08-21,"Swansea","Leeds","D",2,2,3.25,3.5,2.3,"Championship",2019,0,1
 2018-08-20,"Goteborg","Ostersunds","H",NA,NA,2.65,3.27,2.67,"Allsvenskan",2018,0,1
@@ -879,10 +894,12 @@
 2018-08-19,"Djurgarden","Kalmar","A",NA,NA,1.57,3.88,6.12,"Allsvenskan",2018,0,1
 2018-08-19,"Brentford","Sheffield Weds","H",2,0,1.53,4.2,7.5,"Championship",2019,0,1
 2018-08-19,"Brighton","Man United","H",3,2,5,3.4,1.86,"Premier League",2019,0,1
-2018-08-19,"Man City","Huddersfield","H",6,1,1.08,13,34,"Premier League",2019,0,1
 2018-08-19,"Burnley","Watford","A",1,3,2.45,3,3.5,"Premier League",2019,0,1
+2018-08-19,"Man City","Huddersfield","H",6,1,1.08,13,34,"Premier League",2019,0,1
 2018-08-18,"Malmo FF","Trelleborgs","H",NA,NA,1.2,6.65,13.82,"Allsvenskan",2018,0,1
 2018-08-18,"Preston","Stoke","D",2,2,2.35,3.25,3.4,"Championship",2019,0,1
+2018-08-18,"Leeds","Rotherham","H",2,0,1.4,5,9.5,"Championship",2019,0,1
+2018-08-18,"Millwall","Derby","H",2,1,2.37,3.3,3.3,"Championship",2019,0,1
 2018-08-18,"Reading","Bolton","A",0,1,2,3.5,4.2,"Championship",2019,0,1
 2018-08-18,"Bristol City","Middlesbrough","A",0,2,2.9,3.2,2.7,"Championship",2019,0,1
 2018-08-18,"Sheffield United","Norwich","H",2,1,2.14,3.6,3.6,"Championship",2019,0,1
@@ -890,13 +907,11 @@
 2018-08-18,"West Brom","QPR","H",7,1,1.72,3.75,5.5,"Championship",2019,0,1
 2018-08-18,"Ipswich","Aston Villa","D",1,1,3.9,3.4,2.1,"Championship",2019,0,1
 2018-08-18,"Wigan","Nott'm Forest","D",2,2,2.37,3.4,3.2,"Championship",2019,0,1
-2018-08-18,"Leeds","Rotherham","H",2,0,1.4,5,9.5,"Championship",2019,0,1
-2018-08-18,"Millwall","Derby","H",2,1,2.37,3.3,3.3,"Championship",2019,0,1
 2018-08-18,"Chelsea","Arsenal","H",3,2,1.83,3.9,4.5,"Premier League",2019,0,1
+2018-08-18,"Tottenham","Fulham","H",3,1,1.28,6.5,11,"Premier League",2019,0,1
 2018-08-18,"West Ham","Bournemouth","A",1,2,2.2,3.5,3.5,"Premier League",2019,0,1
 2018-08-18,"Everton","Southampton","H",2,1,1.85,3.5,5,"Premier League",2019,0,1
 2018-08-18,"Leicester","Wolves","H",2,0,2.14,3.5,3.6,"Premier League",2019,0,1
-2018-08-18,"Tottenham","Fulham","H",3,1,1.28,6.5,11,"Premier League",2019,0,1
 2018-08-18,"Cardiff","Norrkoping","D",0,0,3.3,3,2.54,"Premier League",2019,0,1
 2018-08-17,"Sirius","Dalkurd","A",NA,NA,1.89,3.67,3.91,"Allsvenskan",2018,0,1
 2018-08-17,"Birmingham","Swansea","D",0,0,2.7,3.25,2.87,"Championship",2019,0,1
@@ -910,6 +925,8 @@
 2018-08-12,"Liverpool","West Ham","H",4,0,1.25,7,12,"Premier League",2019,0,1
 2018-08-11,"Orebro","Brommapojkarna","A",NA,NA,1.76,3.73,4.55,"Allsvenskan",2018,0,1
 2018-08-11,"Derby","Leeds","A",1,4,2.3,3.5,3.25,"Championship",2019,0,1
+2018-08-11,"Swansea","Preston","H",1,0,2.45,3.3,3.2,"Championship",2019,0,1
+2018-08-11,"Norwich","West Brom","A",3,4,2.75,3.3,2.8,"Championship",2019,0,1
 2018-08-11,"Nott'm Forest","Reading","H",1,0,1.61,3.9,6.5,"Championship",2019,0,1
 2018-08-11,"Aston Villa","Wigan","H",3,2,2.1,3.4,3.9,"Championship",2019,0,1
 2018-08-11,"QPR","Sheffield United","A",1,2,2.8,3.4,2.7,"Championship",2019,0,1
@@ -919,8 +936,6 @@
 2018-08-11,"Sheffield Weds","Hull","D",1,1,2.37,3.4,3.2,"Championship",2019,0,1
 2018-08-11,"Stoke","Brentford","D",1,1,2.37,3.4,3.25,"Championship",2019,0,1
 2018-08-11,"Middlesbrough","Birmingham","H",1,0,1.7,3.75,6,"Championship",2019,0,1
-2018-08-11,"Swansea","Preston","H",1,0,2.45,3.3,3.2,"Championship",2019,0,1
-2018-08-11,"Norwich","West Brom","A",3,4,2.75,3.3,2.8,"Championship",2019,0,1
 2018-08-11,"Wolves","Everton","D",2,2,2.25,3.25,3.6,"Premier League",2019,0,1
 2018-08-11,"Bournemouth","Cardiff","H",2,0,1.85,3.6,4.75,"Premier League",2019,0,1
 2018-08-11,"Watford","Brighton","H",2,0,2.45,3.2,3.3,"Premier League",2019,0,1
@@ -941,6 +956,7 @@
 2018-08-04,"Brommapojkarna","Dalkurd","H",NA,NA,2.32,3.43,2.98,"Allsvenskan",2018,0,1
 2018-08-04,"Kalmar","Goteborg","H",NA,NA,2.03,3.31,3.78,"Allsvenskan",2018,0,1
 2018-08-04,"Sheffield United","Swansea","A",1,2,2,3.5,4.1,"Championship",2019,0,1
+2018-08-04,"Millwall","Middlesbrough","D",2,2,2.7,3.2,2.9,"Championship",2019,0,1
 2018-08-04,"Preston","QPR","H",1,0,1.95,3.5,4.33,"Championship",2019,0,1
 2018-08-04,"West Brom","Bolton","A",1,2,1.44,4.5,9,"Championship",2019,0,1
 2018-08-04,"Birmingham","Norwich","D",2,2,2.8,3.2,2.8,"Championship",2019,0,1
@@ -948,7 +964,6 @@
 2018-08-04,"Brentford","Rotherham","H",5,1,1.53,4.5,6.5,"Championship",2019,0,1
 2018-08-04,"Bristol City","Nott'm Forest","D",1,1,2.75,3.3,2.8,"Championship",2019,0,1
 2018-08-04,"Ipswich","Blackburn","D",2,2,3,3.2,2.62,"Championship",2019,0,1
-2018-08-04,"Millwall","Middlesbrough","D",2,2,2.7,3.2,2.9,"Championship",2019,0,1
 2018-08-03,"Reading","Derby","A",1,2,4,3.3,2.1,"Championship",2019,0,1
 2018-07-30,"Trelleborgs","Hammarby","A",NA,NA,5.78,4.33,1.53,"Allsvenskan",2018,0,1
 2018-07-29,"AIK","Kalmar","H",NA,NA,1.52,3.91,6.92,"Allsvenskan",2018,0,1
@@ -16100,8 +16115,6 @@
 2008-08-15,"Mainz","Kaiserslautern","D",NA,NA,1.85,3.33,3.88,"2.Bundesliga",2008,0,1
 2008-08-15,"St Pauli","Osnabruck","D",NA,NA,1.78,3.38,4.15,"2.Bundesliga",2008,0,1
 2008-08-15,"Bayern Munich","Hamburg","D",NA,NA,1.64,3.55,5.23,"Bundesliga",2008,0,1
-2019-05-18,"Werder Bremen","RB Leipzig",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-05-18,"Freiburg","Nurnberg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-18,"Mainz","Hoffenheim",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-18,"Bayern Munich","Ein Frankfurt",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-18,"Wolfsburg","Augsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
@@ -16109,25 +16122,32 @@
 2019-05-18,"Fortuna Dusseldorf","Hannover",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-18,"M'gladbach","Dortmund",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-18,"Hertha","Leverkusen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-05-12,"Tottenham","Everton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-05-12,"Crystal Palace","Bournemouth",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-05-12,"Watford","West Ham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-05-12,"Fulham","Norrkoping",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-05-12,"Leicester","Chelsea",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-05-18,"Werder Bremen","RB Leipzig",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-05-18,"Freiburg","Nurnberg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-12,"Liverpool","Wolves",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-05-12,"Man United","Cardiff",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-05-12,"Brighton","Man City",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-05-12,"Southampton","Huddersfield",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-05-12,"Burnley","Arsenal",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-05-12,"Tottenham","Everton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-05-12,"Crystal Palace","Bournemouth",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-05-12,"Watford","West Ham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-05-12,"Fulham","Norrkoping",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-05-12,"Leicester","Chelsea",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-05-11,"Leverkusen","Schalke 04",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-05-11,"RB Leipzig","Bayern Munich",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-05-11,"Stuttgart","Wolfsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-05-11,"Ein Frankfurt","Mainz",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-11,"Augsburg","Hertha",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-11,"Hoffenheim","Werder Bremen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-11,"Hannover","Freiburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-11,"Dortmund","Fortuna Dusseldorf",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-11,"Nurnberg","M'gladbach",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-05-11,"Leverkusen","Schalke 04",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-05-11,"RB Leipzig","Bayern Munich",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-05-11,"Stuttgart","Wolfsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-05-11,"Ein Frankfurt","Mainz",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-05-05,"Reading","Birmingham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-05-05,"Blackburn","Swansea",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-05-05,"Rotherham","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-05-05,"Brentford","Preston",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-05-05,"Sheffield Weds","QPR",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-05-05,"Derby","West Brom",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-05-05,"Stoke","Sheffield United",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-05-05,"Hull","Bristol City",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
@@ -16135,54 +16155,46 @@
 2019-05-05,"Ipswich","Leeds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-05-05,"Nott'm Forest","Bolton",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-05-05,"Aston Villa","Norwich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-05-05,"Reading","Birmingham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-05-05,"Blackburn","Swansea",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-05-05,"Rotherham","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-05-05,"Brentford","Preston",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-05-05,"Sheffield Weds","QPR",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-05-04,"Leverkusen","Ein Frankfurt",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-05-04,"M'gladbach","Hoffenheim",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-05-04,"Hertha","Stuttgart",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-04,"Werder Bremen","Dortmund",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-04,"Freiburg","Fortuna Dusseldorf",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-04,"Bayern Munich","Hannover",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-04,"Mainz","RB Leipzig",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-04,"Schalke 04","Augsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-04,"Wolfsburg","Nurnberg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-05-04,"Man City","Leicester",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-05-04,"Arsenal","Brighton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-05-04,"Norrkoping","Liverpool",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-05-04,"Bournemouth","Tottenham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-05-04,"Leverkusen","Ein Frankfurt",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-05-04,"M'gladbach","Hoffenheim",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-05-04,"Hertha","Stuttgart",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-05-04,"West Ham","Southampton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-05-04,"Cardiff","Crystal Palace",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-05-04,"Wolves","Fulham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-05-04,"Chelsea","Watford",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-05-04,"Everton","Burnley",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-05-04,"Huddersfield","Man United",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-27,"Augsburg","Leverkusen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-04-27,"Hannover","Mainz",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-04-27,"Hoffenheim","Wolfsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-05-04,"Man City","Leicester",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-05-04,"Arsenal","Brighton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-05-04,"Norrkoping","Liverpool",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-05-04,"Bournemouth","Tottenham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-27,"Fortuna Dusseldorf","Werder Bremen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-27,"Dortmund","Schalke 04",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-27,"Nurnberg","Bayern Munich",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-27,"RB Leipzig","Freiburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-27,"Stuttgart","M'gladbach",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-27,"Hoffenheim","Wolfsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-27,"Ein Frankfurt","Hertha",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-27,"Augsburg","Leverkusen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-27,"Hannover","Mainz",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-27,"Norwich","Blackburn",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-27,"Birmingham","Wigan",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-27,"Sheffield United","Ipswich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-27,"Leeds","Aston Villa",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-27,"Preston","Sheffield Weds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-27,"Bolton","Brentford",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-27,"Swansea","Hull",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-27,"Middlesbrough","Reading",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-27,"QPR","Nott'm Forest",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-27,"Sheffield United","Ipswich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-27,"Bristol City","Derby",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-27,"Swansea","Hull",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-27,"Leeds","Aston Villa",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-27,"Middlesbrough","Reading",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-27,"West Brom","Rotherham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-27,"Millwall","Stoke",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-27,"Norwich","Blackburn",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-27,"Preston","Sheffield Weds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-27,"QPR","Nott'm Forest",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-27,"Watford","Wolves",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-27,"Fulham","Cardiff",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-27,"Leicester","Arsenal",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-27,"Liverpool","Huddersfield",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-27,"Man United","Chelsea",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-27,"Brighton","Norrkoping",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
@@ -16190,7 +16202,11 @@
 2019-04-27,"Burnley","Man City",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-27,"Tottenham","West Ham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-27,"Crystal Palace","Everton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-27,"Watford","Wolves",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-27,"Fulham","Cardiff",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-27,"Leicester","Arsenal",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-22,"Aston Villa","Millwall",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-22,"Ipswich","Swansea",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-22,"Nott'm Forest","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-22,"Reading","West Brom",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-22,"Blackburn","Bolton",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
@@ -16201,28 +16217,29 @@
 2019-04-22,"Stoke","Norwich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-22,"Hull","Sheffield United",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-22,"Wigan","Preston",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-22,"Ipswich","Swansea",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-20,"M'gladbach","RB Leipzig",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-04-20,"Wolfsburg","Ein Frankfurt",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-04-20,"Hertha","Hannover",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-04-20,"Augsburg","Stuttgart",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-04-20,"Freiburg","Dortmund",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-20,"Bayern Munich","Werder Bremen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-20,"Mainz","Fortuna Dusseldorf",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-20,"Schalke 04","Hoffenheim",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-20,"Wolfsburg","Ein Frankfurt",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-20,"Leverkusen","Nurnberg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-04-20,"Man City","Tottenham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-20,"Arsenal","Crystal Palace",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-20,"Norrkoping","Southampton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-20,"Bournemouth","Fulham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-20,"West Ham","Leicester",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-20,"Cardiff","Liverpool",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-20,"M'gladbach","RB Leipzig",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-20,"Hertha","Hannover",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-20,"Augsburg","Stuttgart",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-20,"Freiburg","Dortmund",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-20,"Wolves","Brighton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-20,"Arsenal","Crystal Palace",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-20,"Chelsea","Burnley",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-20,"Bournemouth","Fulham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-20,"Everton","Man United",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-20,"Cardiff","Liverpool",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-20,"Huddersfield","Watford",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-20,"Man City","Tottenham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-20,"Norrkoping","Southampton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-20,"West Ham","Leicester",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-19,"Bristol City","Reading",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-19,"Millwall","Brentford",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-19,"Middlesbrough","Stoke",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-19,"West Brom","Hull",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-19,"Norwich","Sheffield Weds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-19,"Birmingham","Derby",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-19,"Preston","Ipswich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
@@ -16231,29 +16248,29 @@
 2019-04-19,"Sheffield United","Nott'm Forest",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-19,"Leeds","Wigan",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-19,"Swansea","Rotherham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-19,"Middlesbrough","Stoke",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-19,"West Brom","Hull",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-13,"Stuttgart","Leverkusen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-13,"Ein Frankfurt","Augsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-13,"Werder Bremen","Freiburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-13,"Hannover","M'gladbach",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-13,"Hoffenheim","Hertha",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-13,"Fortuna Dusseldorf","Bayern Munich",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-13,"Dortmund","Mainz",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-13,"Nurnberg","Schalke 04",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-13,"RB Leipzig","Wolfsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-04-13,"Stuttgart","Leverkusen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-04-13,"Ein Frankfurt","Augsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-04-13,"Werder Bremen","Freiburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-13,"Derby","Bolton",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-13,"West Brom","Preston",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-13,"Middlesbrough","Hull",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-13,"Ipswich","Birmingham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-13,"Wigan","Norwich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-13,"Nott'm Forest","Blackburn",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-13,"QPR","Swansea",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-13,"Aston Villa","Bristol City",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-13,"Reading","Brentford",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-13,"Derby","Bolton",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-13,"Sheffield United","Millwall",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-13,"Ipswich","Birmingham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-13,"Stoke","Rotherham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-13,"Leeds","Sheffield Weds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-13,"West Brom","Preston",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-13,"QPR","Swansea",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-13,"Reading","Brentford",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-13,"Sheffield United","Millwall",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-13,"Aston Villa","Bristol City",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-13,"Stoke","Rotherham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-13,"Fulham","Everton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-13,"Leicester","Norrkoping",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-13,"Liverpool","Chelsea",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-13,"Man United","West Ham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-13,"Brighton","Bournemouth",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
@@ -16262,13 +16279,11 @@
 2019-04-13,"Tottenham","Huddersfield",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-13,"Crystal Palace","Man City",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-13,"Watford","Arsenal",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-13,"Fulham","Everton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-13,"Leicester","Norrkoping",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-10,"Millwall","QPR",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-10,"Birmingham","Sheffield United",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-10,"Rotherham","Aston Villa",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-10,"Brentford","Ipswich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-10,"Hull","Wigan",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-10,"Millwall","QPR",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-04-10,"Rotherham","Aston Villa",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-09,"Bristol City","West Brom",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-09,"Norwich","Reading",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-09,"Preston","Leeds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
@@ -16278,11 +16293,11 @@
 2019-04-09,"Bolton","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-07,"Augsburg","Hoffenheim",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-07,"M'gladbach","Werder Bremen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-06,"Hertha","Fortuna Dusseldorf",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-04-06,"Schalke 04","Ein Frankfurt",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-06,"Wolfsburg","Hannover",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-06,"Leverkusen","RB Leipzig",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-06,"Stuttgart","Nurnberg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-04-06,"Hertha","Fortuna Dusseldorf",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-04-06,"Schalke 04","Ein Frankfurt",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-06,"Bayern Munich","Dortmund",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-06,"Millwall","West Brom",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-06,"Birmingham","Leeds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
@@ -16296,16 +16311,16 @@
 2019-04-06,"Bristol City","Wigan",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-06,"Swansea","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-06,"Hull","Reading",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-04-06,"Wolves","Man United",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-06,"Huddersfield","Leicester",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-06,"Man City","Cardiff",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-06,"Norrkoping","Crystal Palace",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-04-06,"Southampton","Liverpool",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-06,"Bournemouth","Burnley",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-06,"Tottenham","Brighton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-06,"Chelsea","West Ham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-06,"Watford","Fulham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-06,"Everton","Arsenal",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-06,"Wolves","Man United",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-06,"Huddersfield","Leicester",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-06,"Man City","Cardiff",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-06,"Norrkoping","Crystal Palace",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-04-06,"Southampton","Liverpool",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-04-05,"Mainz","Freiburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-04-02,"Middlesbrough","Bristol City",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-04-02,"Swansea","Brentford",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
@@ -16314,11 +16329,11 @@
 2019-03-31,"Ein Frankfurt","Stuttgart",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-31,"Cardiff","Chelsea",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-31,"Liverpool","Tottenham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-03-30,"Nurnberg","Augsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-30,"Werder Bremen","Mainz",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-30,"Freiburg","Bayern Munich",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-30,"Fortuna Dusseldorf","M'gladbach",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-30,"Dortmund","Wolfsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-03-30,"Nurnberg","Augsburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-30,"RB Leipzig","Hertha",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-30,"Nott'm Forest","Swansea",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-30,"QPR","Bolton",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
@@ -16332,11 +16347,11 @@
 2019-03-30,"Wigan","Brentford",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-30,"Middlesbrough","Norwich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-30,"Fulham","Man City",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-03-30,"Crystal Palace","Huddersfield",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-30,"Leicester","Bournemouth",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-30,"Brighton","Southampton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-30,"Man United","Watford",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-30,"Burnley","Wolves",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-03-30,"Crystal Palace","Huddersfield",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-30,"West Ham","Everton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-29,"Hoffenheim","Leverkusen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-29,"West Brom","Birmingham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
@@ -16346,30 +16361,30 @@
 2019-03-17,"Tottenham","Crystal Palace",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-17,"Fulham","Liverpool",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-17,"Everton","Chelsea",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-03-16,"Augsburg","Hannover",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-03-16,"Wolfsburg","Fortuna Dusseldorf",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-16,"Schalke 04","RB Leipzig",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-16,"Stuttgart","Hoffenheim",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-03-16,"Augsburg","Hannover",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-03-16,"Wolfsburg","Fortuna Dusseldorf",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-16,"Hertha","Dortmund",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-16,"Leeds","Sheffield United",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-16,"Aston Villa","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-16,"Wigan","Bolton",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-16,"Millwall","Bristol City",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-16,"Brentford","West Brom",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-16,"Preston","Birmingham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-16,"Hull","QPR",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-16,"Rotherham","Norwich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-16,"Ipswich","Nott'm Forest",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-16,"Wigan","Bolton",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-16,"Sheffield Weds","Blackburn",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-16,"Hull","QPR",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-16,"Stoke","Reading",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-16,"Ipswich","Nott'm Forest",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-16,"Swansea","Derby",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-16,"Millwall","Bristol City",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-16,"Preston","Birmingham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-16,"Aston Villa","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-16,"Rotherham","Norwich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-16,"Man United","Man City",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-03-16,"Bournemouth","Norrkoping",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-03-16,"Watford","Southampton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-03-16,"Brighton","Cardiff",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-16,"West Ham","Huddersfield",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-16,"Burnley","Leicester",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-16,"Wolves","Arsenal",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-03-16,"Bournemouth","Norrkoping",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-03-16,"Brighton","Cardiff",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-03-16,"Watford","Southampton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-15,"M'gladbach","Freiburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-13,"Birmingham","Millwall",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-13,"Derby","Stoke",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
@@ -16381,8 +16396,8 @@
 2019-03-12,"Blackburn","Wigan",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-12,"Bristol City","Ipswich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-12,"Sheffield United","Brentford",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-12,"Reading","Leeds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-12,"Bolton","Sheffield Weds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-12,"Reading","Leeds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-11,"Fortuna Dusseldorf","Ein Frankfurt",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-10,"Hoffenheim","Nurnberg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-10,"Hannover","Leverkusen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
@@ -16397,7 +16412,6 @@
 2019-03-09,"Mainz","M'gladbach",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-09,"Blackburn","Preston",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-09,"Sheffield United","Rotherham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-09,"Middlesbrough","Brentford",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-09,"Nott'm Forest","Hull",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-09,"QPR","Stoke",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-09,"Bolton","Millwall",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
@@ -16405,12 +16419,13 @@
 2019-03-09,"Bristol City","Leeds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-09,"Derby","Sheffield Weds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-09,"West Brom","Ipswich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-09,"Middlesbrough","Brentford",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-09,"Crystal Palace","Brighton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-03-09,"Huddersfield","Bournemouth",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-03-09,"Leicester","Fulham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-03-09,"Southampton","Tottenham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-09,"Cardiff","West Ham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-09,"Norrkoping","Everton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-03-09,"Southampton","Tottenham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-03-09,"Huddersfield","Bournemouth",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-03-09,"Leicester","Fulham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-09,"Man City","Watford",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-08,"Werder Bremen","Schalke 04",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-08,"Norwich","Swansea",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
@@ -16421,44 +16436,44 @@
 2019-03-03,"Watford","Leicester",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-03,"Fulham","Chelsea",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-03,"Everton","Liverpool",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-03-02,"Hertha","Mainz",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-02,"Schalke 04","Fortuna Dusseldorf",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-02,"Leverkusen","Freiburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-02,"Nurnberg","RB Leipzig",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-02,"Ein Frankfurt","Hoffenheim",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-03-02,"Hertha","Mainz",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-02,"M'gladbach","Bayern Munich",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-03-02,"Wigan","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-02,"Millwall","Norwich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-02,"Preston","Bristol City",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-02,"Aston Villa","Derby",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-02,"Rotherham","Blackburn",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-02,"Brentford","QPR",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-02,"Hull","Birmingham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-03-02,"Stoke","Nott'm Forest",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-02,"Preston","Bristol City",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-02,"Ipswich","Reading",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-02,"Rotherham","Blackburn",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-02,"Millwall","Norwich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-02,"Stoke","Nott'm Forest",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-02,"Aston Villa","Derby",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-02,"Swansea","Bolton",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-02,"Brentford","QPR",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-03-02,"Wigan","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-03-02,"Tottenham","Arsenal",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-03-02,"Man United","Southampton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-03-02,"Bournemouth","Man City",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-02,"Brighton","Huddersfield",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-02,"Burnley","Crystal Palace",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-02,"Wolves","Cardiff",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-03-02,"Man United","Southampton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-03-02,"Bournemouth","Man City",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-02,"West Ham","Norrkoping",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-03-01,"Augsburg","Dortmund",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-03-01,"Leeds","West Brom",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-27,"Arsenal","Bournemouth",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-02-27,"Southampton","Fulham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-02-27,"Man City","West Ham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-02-27,"Crystal Palace","Man United",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-02-27,"Chelsea","Tottenham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-02-27,"Liverpool","Watford",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
-2019-02-27,"Man City","West Ham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-02-26,"QPR","Leeds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-26,"Bristol City","Birmingham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-26,"Hull","Millwall",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-26,"Sheffield Weds","Brentford",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-26,"Cardiff","Everton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-02-26,"Hull","Millwall",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-26,"Huddersfield","Wolves",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-02-26,"Leicester","Brighton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
+2019-02-26,"Cardiff","Everton",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-02-26,"Norrkoping","Burnley",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-02-25,"RB Leipzig","Hoffenheim",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-02-25,"Nott'm Forest","Derby",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
@@ -16472,16 +16487,16 @@
 2019-02-23,"Bayern Munich","Hertha",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-02-23,"Mainz","Schalke 04",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
 2019-02-23,"Fortuna Dusseldorf","Nurnberg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
+2019-02-23,"Reading","Rotherham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-02-23,"Brentford","Hull",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-02-23,"Sheffield Weds","Swansea",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
+2019-02-23,"Leeds","Bolton",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-23,"Stoke","Aston Villa",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-23,"Middlesbrough","QPR",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-23,"Millwall","Preston",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-23,"Wigan","Ipswich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-23,"Norwich","Bristol City",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-23,"Birmingham","Blackburn",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-23,"Reading","Rotherham",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-23,"Brentford","Hull",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-23,"Sheffield Weds","Swansea",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-23,"Leeds","Bolton",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-23,"West Brom","Sheffield United",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-23,"Burnley","Tottenham",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-02-23,"Norrkoping","Huddersfield",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
@@ -16492,18 +16507,3 @@
 2019-02-22,"Cardiff","Watford",NA,NA,NA,NA,NA,NA,"Premier League",2019,0,0
 2019-02-20,"Derby","Millwall",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
 2019-02-19,"QPR","West Brom",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-18,"Nurnberg","Dortmund",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-02-17,"Ein Frankfurt","M'gladbach",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-02-17,"Leverkusen","Fortuna Dusseldorf",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-02-17,"Blackburn","Middlesbrough",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-16,"Schalke 04","Freiburg",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-02-16,"Wolfsburg","Mainz",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-02-16,"Hoffenheim","Hannover",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-02-16,"Stuttgart","RB Leipzig",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-02-16,"Hertha","Werder Bremen",NA,NA,NA,NA,NA,NA,"Bundesliga",2019,0,0
-2019-02-16,"Rotherham","Sheffield Weds",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-16,"Bolton","Norwich",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-16,"Sheffield United","Reading",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-16,"Ipswich","Stoke",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-16,"Aston Villa","West Brom",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
-2019-02-16,"Preston","Nott'm Forest",NA,NA,NA,NA,NA,NA,"Championship",2019,0,0
