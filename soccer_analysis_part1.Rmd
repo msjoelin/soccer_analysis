@@ -1,0 +1,226 @@
+---
+title: "Soccer Prediction Part 1: Collect and prepare data"
+author: "Marcus"
+date: "February 10, 2019"
+output: html_document
+---
+
+## Introduction
+
+Every week, I was betting on soccer games together with some friends. Despite having a great feeling each time I placed my bet, most of the weeks ended up in a disaster. Thus I decided to see if some machine learning could improve my score. 
+
+I will present the results of this small project in three parts. 
+
+1. Collect and prepare data 
+2. Create the machine learning model
+3. Visualize data and model follow-up
+
+The coding is done with R. Some of the  
+
+### Part 1: Collect and prepare data
+
+The collecting and preparing phase is not the fanciest part of data science, but still crucial one. 
+Garbage in, garbage out -  a key phrase. 
+Before the coding starts, a data source is needed where the data can be fetched. There are probably dozens of API-solutions out there to connect to live soccer data, but I decided to use web scraping and found a homepage (<http://soccervista.com>) with easy, tabular structure of the game results, as well as the upcoming games. 
+
+As this homepage only contained 3 years history, and moreover no full quote history, I decided to collect my historic data from <http://www.football-data.co.uk> . 
+This blog post will not describe the preparation of the historic data, but focus on how the scraping of the current season data is done. 
+
+So, lets start to scrape the Premier League data the current season. It is found under two different urls, one for results and one for fixtures.  
+
+```{r, message=FALSE, warning=FALSE}
+
+library(lubridate) # Date handling
+library(dplyr) # Data cleaning
+library(tidyr) # Data cleaning 
+
+url_result <- "https://www.soccervista.com/results-Premier_League-2018_2019-855968.html"
+url_fixture <- "https://www.soccervista.com/fixtures-Premier_League-2018_2019-855968.html"
+season <- 2019
+league <- "Premier League"
+```
+
+To read the data into R, the packages rvest together with htmlTable are used. As the data in the webpage is tabular and very clean (one of the reason I chosed this particular site), there is not much more to do than extracting the relevant columns and there we have a decent data set to start with.      
+```{r, message=FALSE, warning=FALSE}
+library(htmlTable)
+library(rvest) 
+
+# Reading the HTML code from the website and save to data frame
+  result <- 
+    read_html(url_result) %>% 
+    html_table(fill=TRUE, header=TRUE) %>% 
+    as.data.frame() 
+  
+  result <- result[,c(1:9)]
+  colnames(result) <- 
+    c("Date", "Round", "Status", "Home", "Result", "Away", "Odds_Home", "Odds_Draw", "Odds_Away")
+  
+  head(result)
+  
+```
+
+The result column has to be splitted to define the outcome of the game. Moreover, empty rows are being removed.  
+
+```{r, message=FALSE, warning=FALSE}
+result <- 
+  result %>%
+  filter(Date!="") %>%
+  separate(Result, c("Score_Home", "Score_Away"), sep=":") %>%
+  mutate(
+    Score_Home = as.numeric(Score_Home), 
+    Score_Away = as.numeric(Score_Away),
+    Result=ifelse(Score_Home>Score_Away, "H", 
+                  ifelse(Score_Away>Score_Home, "A", "D"))) %>%
+  select(Date, Home, Away, Result, Score_Home, Score_Away, Odds_Home, Odds_Draw, Odds_Away) 
+
+head(result)
+```
+
+So we have our results for the current season. 
+Let's do the same for upcoming fixtures, but leaving out irrelevant columns (score, odds etc). 
+```{r, message=FALSE, warning=FALSE}
+  # Reading the HTML code and create dataframe
+  fixtures <- 
+    read_html(url_fixture) %>%
+    html_table(fill=TRUE, header=TRUE) %>% 
+    as.data.frame() 
+  
+  fixtures <- fixtures[,c(1, 4, 6)]
+  
+  colnames(fixtures) <- c("Date", "Home", "Away")
+  
+  fixtures <- 
+    fixtures %>%
+    filter(Date!="") 
+  
+  head(fixtures)
+```
+
+The last step is to handle the Date-column, as the current format is pretty useless for further analysis. Furthermore, the year is missing. Fortunately, the lubridate package let us overcome this easily. I start by creating a dummy data with year 1960 in order to convert the date to a nicer format. 
+To determine the correct year, I use the month of the dummy date. As the season starts from july, games played from july to december were played in 2018. 
+
+```{r, message=FALSE, warning=FALSE}
+# Combine matches and fixtures
+matches <- 
+  bind_rows(fixtures, result) %>%
+  mutate(
+    Date_dummy=paste0(Date, " 1960"),
+    Date_dummy=as.Date(Date_dummy, "%d %b %Y"),
+    Date_yr=ifelse(month(Date_dummy)>=7, season-1, season),
+    Date=as.Date(paste(Date_yr, month(Date_dummy), day(Date_dummy), sep='-')),
+    Season=2019,
+    Division=league) %>%
+    select(-Date_yr)
+
+head(matches)
+```
+
+There we have our scraped data. Combined with the historic data (in the same format), this will be the foundation for further analysis. 
+
+For the predictions, want to analyze each team separately. Every match contains two observations - one for the home team, one for the away team. Let's create this data set, by first extracting home teams, thereafter away teams, and put these two data sets together.  
+
+```{r, message=FALSE, warning=FALSE}
+# Extract results for home team
+team_home <-
+  matches %>% 
+  mutate(Team=Home,
+         Facing=Away,
+         H_A="H",
+         Result=ifelse(Result=="H", "Win", 
+                    ifelse(Result=="D", "Draw", 
+                           ifelse(Result=="A", "Lost", NA)))) %>%
+  rename(Odds=Odds_Home, 
+         OddsDraw=Odds_Draw,
+         OddsOpp=Odds_Away) %>%
+  select(-Home, -Away)
+
+# Extract results for away team
+team_away<-
+  matches %>% 
+  mutate(Team=Away,
+         Facing=Home,
+         H_A="A",
+         Result=ifelse(Result=="A", "Win", 
+                    ifelse(Result=="D", "Draw", 
+                           ifelse(Result=="H", "Lost", NA)))) %>%
+  rename(Odds=Odds_Away, 
+         OddsDraw=Odds_Draw,
+         OddsOpp=Odds_Home) %>%
+  select(-Home, -Away)
+
+# Put together home and away and create WIn/Draw/Lost-Indicator (for rolling analysis in next step)
+teams<-
+  rbind(team_home, team_away)  %>%
+  mutate(Win=ifelse(Result=="Win", 1, 0),
+         Draw=ifelse(Result=="Draw", 1, 0),
+         Lost=ifelse(Result=="Lost", 1, 0),
+         Odds_Intervall=cut(Odds, breaks=c(1, 1.5, 2, 2.5, 3, 3.5, 4, 5, 10, 100)),
+         Country=ifelse(Division=="Allsvenskan", "SE", 
+                        ifelse(Division=="E0" | Division=="E1", "EN", "DE"))) %>% 
+  arrange(Team, Season, Date)
+
+head(teams)
+```
+
+The dataset is arranged by Team, Season and Date, and some columns with indicators for Win/Draw/Lost was created. This was done in preparation of the cumulative and rolling sum calculations that will be applied now. In betting, you are normally looking on form the last games, general performance of the season and also home/away-strength. Therefore the following variables were calculated:
+
+* WinPerc: Ratio of wins the current season (until the specific matchday)
+* L5WinPerc: Ratio if wins the last 5 games
+* H_A_WinPerc: Winratio for home and away the current season (up to the specific matchday)
+
+(the three variables also calculated for draw and lost). 
+
+The variables are calculated with cumulative and rolling sums, grouped by relevant levels. 
+
+```{r, message=FALSE, warning=FALSE}
+library(RcppRoll) #Calculate rolling sums
+
+teams <- 
+  teams %>%
+  group_by(Team, Season) %>% # Total ratio
+  mutate(NrWin=lag(cumsum(Win)),  
+         NrDraw=lag(cumsum(Draw)),
+         NrLost=lag(cumsum(Lost)),
+         WinPerc=NrWin/(NrWin+NrDraw+NrLost), 
+         DrawPerc=NrDraw/(NrWin+NrDraw+NrLost), 
+         LostPerc=NrLost/(NrWin+NrDraw+NrLost),
+         Matchday=seq(n())) %>%
+  ungroup() %>%
+  group_by(Team) %>% # Last 5 games
+  mutate(NrWinL5 = lag(roll_sum(Win, 5, align="right", fill=NA)),
+         NrDrawL5=lag(roll_sum(Draw, 5, align="right", fill=NA)),
+         NrLostL5=lag(roll_sum(Lost, 5, align="right", fill=NA)),
+         L5WinPerc=NrWinL5/(NrWinL5+NrDrawL5+NrLostL5), 
+         L5DrawPerc=NrDrawL5/(NrWinL5+NrDrawL5+NrLostL5), 
+         L5LostPerc=NrLostL5/(NrWinL5+NrDrawL5+NrLostL5)) %>%
+  ungroup() %>%
+  group_by(Team, Season, H_A) %>% # Home/Away-Ratio
+  mutate(NrWin_H_A=lag(cumsum(Win)), 
+         NrDraw_H_A=lag(cumsum(Draw)),
+         NrLost_H_A=lag(cumsum(Lost)),
+         H_A_WinPerc=NrWin_H_A/(NrWin_H_A+NrDraw_H_A+NrLost_H_A), 
+         H_A_DrawPerc=NrDraw_H_A/(NrWin_H_A+NrDraw_H_A+NrLost_H_A), 
+         H_A_LostPerc=NrLost_H_A/(NrWin_H_A+NrDraw_H_A+NrLost_H_A)) %>%
+  ungroup() 
+
+# Replace NA in NrWin/Draw/Lost-Cols with zeroes 
+teams[,c("WinPerc", "DrawPerc", "LostPerc")][is.na(teams[,c("WinPerc", "DrawPerc", "LostPerc")])] <- 0
+teams[,c("L5WinPerc", "L5DrawPerc", "L5LostPerc")][is.na(teams[,c("L5WinPerc", "L5DrawPerc", "L5LostPerc")])] <- 0
+teams[,c("H_A_WinPerc", "H_A_DrawPerc", "H_A_LostPerc")][is.na(teams[,c("H_A_WinPerc", "H_A_DrawPerc", "H_A_LostPerc")])] <- 0
+
+select(teams, Team, Facing, H_A, Date, Result, WinPerc, L5WinPerc, H_A_WinPerc) %>%
+  filter(Team=="Arsenal") %>%
+head(n=10)
+
+```
+
+That's it, we have collected the data and prepared it for further analysis. The first games of my favorite team Arsenal was printed above. 
+Some notes to the data: 
+
+* The first game of the season: Everything is zero (no games has yet been played)
+* L5WinPerc is filled from game 6 (when there are 5 games available)
+* H_A_WinPerc: Values after the first match has been played
+
+Of course, we can incorporate way more variables in the data set. 
+
+In the next part, the predictive model will be developed. 
