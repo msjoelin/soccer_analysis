@@ -1,8 +1,9 @@
 ---
-title: "Soccer Prediction Part 1: Collect and prepare data"
+title: 'Soccer Prediction Part 1: Collect and prepare data'
 author: "Marcus"
 date: "February 10, 2019"
-output: html_document
+output:
+  html_document: default
 ---
 
 ## Introduction
@@ -15,7 +16,7 @@ I will present the results of this small project in three parts.
 2. Create the machine learning model
 3. Visualize data and model follow-up
 
-The coding is done with R. Some of the  
+The coding is done with R. 
 
 ### Part 1: Collect and prepare data
 

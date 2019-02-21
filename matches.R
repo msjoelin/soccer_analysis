@@ -1,16 +1,19 @@
 ##################################################
 ## Project: Soccer Analysis
 ## Script purpose: Update dataset for matches and data
-## Date: 2018-11-11
+## Output: Two csv-files:
+##  * matches.csv:  one row per match, including predictions
+##  * teams.csv:    one row per team and match
+## Date: 2019-02-01
 ## Author: Marcus Sjölin
 ##################################################
-
 
 # Libraries 
 library(readr) # Read and write data
 library(lubridate) # Date handling
 
 # Clening data
+library(plyr)
 library(dplyr)
 library(tidyr)    
 library(RcppRoll) #Efficient rolling
@@ -19,27 +22,28 @@ library(RcppRoll) #Efficient rolling
 library(htmlTable)
 library(rvest) 
 
+# Predictions
+library(caret)    
+library(e1071) # NaiveBayes
+
 # Upload and download from googledrive
 library(googledrive)
 
-# Set working directory
-setwd("/home/marcus/R/soccer_analysis/data/")
+# Backup files (comment out if no need for backup ) 
+file.copy("matches.csv", 
+          paste0("backup/matches", Sys.Date(), ".csv"), overwrite = TRUE)
 
-# Backup files
-file.copy("/home/marcus/R/soccer_analysis/data/matches.csv", 
-          paste0("/home/marcus/R/soccer_analysis/data/backup/matches", Sys.Date(), ".csv"))
-
-file.copy("/home/marcus/R/soccer_analysis/data/teams.csv", 
-          paste0("/home/marcus/R/soccer_analysis/data/backup/teams", Sys.Date(), ".csv"))
+file.copy("teams.csv", 
+          paste0("backup/teams", Sys.Date(), ".csv"), overwrite = TRUE)
 
 # Set IDs for googledrive data
 team_id <- "1m1c-xgH_1tH_ReUvu__40daHK3hfn0ot_wl3FEqfJg8"
 match_id <- "11J38BIxUw2_MiVxaHnikz4bEIMo9I6y1ufMxH7vlnzI"
 
-# Read into dataframes
+# Read in previous data (before current season) 
 matches_previous<-read.csv("matches_bf_2019.csv", stringsAsFactors = FALSE)
 
-################ UPDATE MATCH DATA ######################### 
+################ UPDATE CURRENT MATCH DATA ######################### 
 
 url_data <- read.csv("url_data.csv", stringsAsFactors = FALSE)
 nbr_url <- nrow(url_data)
@@ -141,7 +145,7 @@ matches_current$Away <- away_new$historic
 rm(home_new)
 rm(away_new)
 
-# Update variables: If data in updated dataset, use this data
+# Combine current and previous data
 matches <- 
   rbind(matches_current, matches_previous) %>%
   mutate(Coming5=ifelse(Date-today()<=5 & is.na(Result), 1, 0),
@@ -204,7 +208,7 @@ teams <-
          LostPerc=NrLost/(NrWin+NrDraw+NrLost),
          Matchday=seq(n())) %>%
   ungroup() %>%
-  group_by(Team) %>% # For each Team: Rolling 5 matches
+  group_by(Team) %>% # For each Team: Form last 5 matches
   mutate(NrWinL5 = lag(roll_sum(Win, 5, align="right", fill=NA)),
          NrDrawL5=lag(roll_sum(Draw, 5, align="right", fill=NA)),
          NrLostL5=lag(roll_sum(Lost, 5, align="right", fill=NA)),
@@ -219,6 +223,9 @@ teams <-
          H_A_WinPerc=NrWin_H_A/(NrWin_H_A+NrDraw_H_A+NrLost_H_A), 
          H_A_DrawPerc=NrDraw_H_A/(NrWin_H_A+NrDraw_H_A+NrLost_H_A), 
          H_A_LostPerc=NrLost_H_A/(NrWin_H_A+NrDraw_H_A+NrLost_H_A)) %>%
+  ungroup() %>%
+  group_by(Team, Facing) %>% # Head to head ratio
+  mutate(H2H=lag(cumsum(Win))/(lag(cumsum(Win))+lag(cumsum(Lost)))) %>%
   ungroup() 
 
 # Replace NA in NrWin/Draw/Lost-Cols with zeroes 
@@ -226,6 +233,50 @@ teams[,c("WinPerc", "DrawPerc", "LostPerc")][is.na(teams[,c("WinPerc", "DrawPerc
 teams[,c("L5WinPerc", "L5DrawPerc", "L5LostPerc")][is.na(teams[,c("L5WinPerc", "L5DrawPerc", "L5LostPerc")])] <- 0
 teams[,c("H_A_WinPerc", "H_A_DrawPerc", "H_A_LostPerc")][is.na(teams[,c("H_A_WinPerc", "H_A_DrawPerc", "H_A_LostPerc")])] <- 0
 
+# If head-to-head is NA (teams have not played eachother yet), set a value to 0.5 (meaning same ratio win as lose)
+teams[,c("H2H")][is.na(teams[,c("H2H")])] <- 0.5
+
+
+########## ADD DATA FROM TEAM TO EACH MATCH FOR HOME AND AWAY #################
+matches <- 
+  left_join(matches, teams[,c("Date", "Team", "WinPerc", "L5WinPerc", "H_A_WinPerc", "H2H")], by=c("Home"="Team", "Date"="Date")) %>%
+  rename(Win_H = WinPerc, 
+         L5Win_H=L5WinPerc,
+         HomeStrength=H_A_WinPerc) %>%
+  left_join(teams[,c("Date", "Team","WinPerc", "L5WinPerc", "H_A_WinPerc")], by=c("Away"="Team", "Date"="Date")) %>%
+  rename(Win_A=WinPerc, 
+         L5Win_A=L5WinPerc,
+         AwayStrength=H_A_WinPerc)
+
+########## PREDICT RESULT USING ML-MODELS  ##########################
+
+load("rf_soccer.rda")
+load("nb_soccer.rda")
+
+# Load in  predictions
+matches$rf_pred <- predict(rf.model, matches)
+matches$nB_pred <- predict(nB.model, matches)
+
+# Load in nprobabilities
+matches$rf_pred_prob_H <- predict(rf.model, matches, type="prob")$H
+matches$rf_pred_prob_D <- predict(rf.model, matches, type="prob")$D
+matches$rf_pred_prob_A <- predict(rf.model, matches, type="prob")$A
+matches$nB_pred_prob_H <- as.data.frame(predict(nB.model, matches, type="raw"))$H
+matches$nB_pred_prob_D <- as.data.frame(predict(nB.model, matches, type="raw"))$D
+matches$nB_pred_prob_A <- as.data.frame(predict(nB.model, matches, type="raw"))$A
+
+# Add some variables
+matches <- 
+  matches %>% 
+  mutate(Predict_Success_rf=ifelse(rf_pred==Result, 1, 0),
+         Predict_Success_nB=ifelse(nB_pred==Result, 1, 0),
+         Prob_pred_rf = ifelse(rf_pred == "H", rf_pred_prob_H, 
+                            ifelse(rf_pred=="D", rf_pred_prob_D, rf_pred_prob_A)),
+         Prob_pred_nB = ifelse(nB_pred == "H", nB_pred_prob_H, 
+                               ifelse(nB_pred=="D", nB_pred_prob_D, nB_pred_prob_A)),
+         Odds_Outcome=ifelse(Result=="H", Odds_Home, 
+                           ifelse(Result=="A", Odds_Away, Odds_Draw)),
+       DateWeek=isoweek(Date))
 
 # Write files to drive
 write.csv(matches, "matches.csv", row.names=FALSE)

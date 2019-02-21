@@ -1,0 +1,99 @@
+---
+title: 'Soccer Prediction Part 1: Collect and prepare data'
+author: "Marcus"
+date: "February 10, 2019"
+output:
+  html_document: default
+---
+
+## Soccer Analysis
+
+### Part 2: Create the machine learning model
+
+In part 1, the data was prepared. Now it is time to use this data to create some different machine learning models. Now it is time to develop a prediction model for the results. There are a number of algorithms out there, but I will use randomforest and naiveBayes for this classification problem. 
+
+* Randomforest: Combines multiple decision trees and picks the ensambled result to predict the class
+* Naive Bayes: Builds upon Bayes Theorem of probability to predict the class
+
+The reason for choosing these two algorithms is that they are a very good starting point - they are easy to implement, often gives pretty good results. 
+
+The approach will be the following: The result for every team will be classified. So each match will 
+Tp predict the outcome of the match, the prediction of the two teams will be weighted. 
+
+
+The model will 
+Beginning with reading the team (one row per match and team) and filter out rows with NAs (these cannot be used in the model). This is in general rows in the beginning of the season (where no games have been played). Thereafter characters are turned into factors, as this is required when the model is created. 
+Finally, the dataset is split into train and test data (75% traindata).
+```{r, message=FALSE, warning=FALSE}
+
+library(readr)    
+library(plyr)     
+library(dplyr)    
+library(lubridate) 
+
+library(caret)    
+
+# Rad in data, select variables to be used in preiction model and turn characters into factors
+data <-
+  read.csv("/home/marcus/R/soccer_analysis/data/teams.csv", stringsAsFactors = FALSE) %>%
+  filter(Season<2019 & !is.na(NrWin_H_A) & !is.na(NrWinL5)) %>% 
+  select(Result, Team, H_A, WinPerc, DrawPerc, LostPerc, 
+         L5WinPerc, L5DrawPerc, L5LostPerc, 
+         H_A_WinPerc, H_A_DrawPerc, H_A_LostPerc) %>%
+  mutate_if(is.character, as.factor)
+
+# Split data into train and test 
+inTrain <- createDataPartition(data$Result, p=0.75, list=FALSE)  
+train<-data[inTrain,]
+test<-data[-inTrain,]
+```
+
+#### Naive Bayes
+NaiveBayes is an algorithm -----     
+
+In r the package e1071 can be used for the NaiveBayes algorithm. Lets apply this and evaluate the result with a confusionmatrix. 
+```{r, message=FALSE, warning=FALSE}
+library(e1071) 
+
+nB.model <-naiveBayes(Result ~ ., 
+                      data = train)
+
+test$nB.prediction<-predict(nB.model, test)
+confusionMatrix(test$nB.prediction, test$Res)
+  
+```
+
+Our model are hardly predicting any draws. The reason is that the general probability of a draw is lower than not being a draw, and therefore the result looks pretty bad. As we will have a look at the real probabilities used later on, we'll keep it this way form the moment. 
+
+#### RandomForest
+Randomforest is the classic ML-algorithm when you dont really know what to do. So lets try this one. 
+In order to justify for the weights, this will be incorportated in the model as well. To control the training, a traincontrol-object is used. Here I'll use a 5 fold cross validation of the traindata.   
+
+```{r, message=FALSE, warning=FALSE}
+# Construct weights
+model_weights <- ifelse(as.character(train$Result) == "Draw", (1/table(train$Result)[1]) * (1/3),
+                        ifelse(as.character(train$Result) == "Lost", (1/table(train$Result)[2]) * (1/3), (1/table(train$Result)[3]) * (1/3)))
+
+# Create traincontrol-object
+fit_control <- trainControl(## 10-fold CV
+  method = "cv",
+  number = 3,
+  classProbs=TRUE)
+
+# Train model
+rf.weightmodel <-
+  train(Result ~ .,
+        data=train,
+        method="ranger", 
+        trControl=fit_control,
+        weights=model_weights)
+
+test$rf_w.prediction<-predict(rf.weightmodel, test)
+test$rf_w.prediction_prob<-predict(rf.weightmodel, test, type="prob")
+
+confusionMatrix(test$rf_w.prediction, test$Res)
+
+```
+Still with randomforest were not very good in predicting draws, but compared .
+
+
